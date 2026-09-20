@@ -1,0 +1,837 @@
+{
+ "_meta": {
+  "source": "flipp flyerkit",
+  "merchant": "H-E-B",
+  "flyer_id": 8130390,
+  "postal_code": "77008",
+  "week": "2026-09-16/2026-09-22",
+  "captured": "2026-09-20"
+ },
+ "items": [
+  {
+   "id": 1039715177,
+   "name": "Duracell Coppertop AA or AAA Batteries",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $6 with yellow coupon in-store or online WHEN YOU BUY 2",
+   "categories": [
+    "Electronics"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714441,
+   "name": "H-E-B Fully Cooked Seasoned Shredded Chicken, Ground Beef for Tacos, or Poblano Chicken Mexican Entrées, 12 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "get 4 items free! with yellow coupons in-store or online H-E-B Black or Pinto Beans, 27 oz. H-E-B Shredded Iceberg Lettuce, 16 oz. H-E-B Flour Tortillas, 10 ct., assorted varieties H-E-B Casa Magnífica® Tortilla Chips 11 - 13 oz., assorted varieties",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714475,
+   "name": "H-E-B Wild New Harvest Gulf Shrimp",
+   "pre_price_text": "",
+   "price_text": "7.97",
+   "post_price_text": "lb.",
+   "sale_story": null,
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714481,
+   "name": "H-E-B Pork Center Loin Chops",
+   "pre_price_text": "",
+   "price_text": "2.47",
+   "post_price_text": "lb.",
+   "sale_story": null,
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "Limit 2 pkgs. with an additional $10 purchase"
+  },
+  {
+   "id": 1039715004,
+   "name": "H-E-B Organics® Cold Pressed Juice",
+   "pre_price_text": "4 for",
+   "price_text": "10.00",
+   "post_price_text": "with yellow coupon in-store or online WHEN YOU BUY 4",
+   "sale_story": null,
+   "categories": [
+    "Drinks"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715086,
+   "name": "Popsicle Dessert Pops",
+   "pre_price_text": "2 for",
+   "price_text": "7.00",
+   "post_price_text": "",
+   "sale_story": "with yellow coupon in-store or online WHEN YOU BUY 2",
+   "categories": [
+    "Frozen Food"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715100,
+   "name": "H-E-B Bakery Tres Leches 1/8 Sheet Cakes",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $2 with yellow coupon in-store or online",
+   "categories": [
+    "Bakery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715162,
+   "name": "FAGE Total or BestSelf Greek Yogurt",
+   "pre_price_text": "",
+   "price_text": "5.96",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Dairy"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714466,
+   "name": "H-E-B Wild Caught West Coast Flounder Fillets",
+   "pre_price_text": "",
+   "price_text": "12.97",
+   "post_price_text": "lb.",
+   "sale_story": "SAVE up to $2 per lb.",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715020,
+   "name": "Baby Gold Potatoes",
+   "pre_price_text": "",
+   "price_text": "1.97",
+   "post_price_text": "ea.",
+   "sale_story": null,
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715111,
+   "name": "H-E-B Texas Roots™ or H-E-B Texas Backyard® Pumpkins or Mums",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE 20% with yellow coupon in-store or online",
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715146,
+   "name": "Meal Simple® Microwaveable Meals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY $12 of Meal Simple® Microwaveable Meals, 10.5 - 14 oz. assorted varieties GET FREE! with yellow coupon in-store or online H-E-B Chopped Salad Bowl 5.75 - 7.25 oz. assorted varieties SAVE up to $3.48!",
+   "categories": [
+    "Deli"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715193,
+   "name": "TRESEmmé Hair Care Items",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "when you buy $9 of TRESemmé Hair Care Items Save $3 off your basket with yellow coupon in-store or online",
+   "categories": [
+    "Health & Beauty"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "(excludes travel/trial sizes)"
+  },
+  {
+   "id": 1039715056,
+   "name": "Chobani 20G Protein Greek Yogurt",
+   "pre_price_text": "",
+   "price_text": "3.77",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $2",
+   "categories": [
+    "Dairy"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714516,
+   "name": "BrightFarms Crunch Salad Kits, 5.85 - 6.7 oz. assorted varieties, or JUMBO! FRESH! Blueberries, 9.8 oz.",
+   "pre_price_text": "",
+   "price_text": "3.27",
+   "post_price_text": "ea.",
+   "sale_story": null,
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715191,
+   "name": "HUGGIES Diapers, Little Swimmers, Wipes, Pull-Ups, or Goodnites Items",
+   "pre_price_text": "WHEN YOU BUY $40 OF",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $10 OFF YOUR BASKET with yellow coupon in-store or online WHEN YOU BUY $40 OF Huggies Diapers, Little Swimmers, Wipes, Pull•Ups, or Goodnites Items assorted varieties",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714452,
+   "name": "H-E-B Mi Tienda® Items",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "WHEN YOU BUY $20 OF H-E-B Mi Tienda® Items SAVE $4 OFF YOUR BASKET with yellow coupon in-store or online",
+   "categories": [
+    "Bakery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714458,
+   "name": "H-E-B Sushiya® Sushi Harvest Crunch Bowl or Roll, Everything Lox Roll",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $1 with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714529,
+   "name": "Hill Country Fare Boneless Skinless Chicken Breast Tenders",
+   "pre_price_text": "",
+   "price_text": "2.47",
+   "post_price_text": "lb.",
+   "sale_story": "SAVE up to $1.21 per lb.",
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "Limit-2 pkgs, with an additional $10 purchase"
+  },
+  {
+   "id": 1039715170,
+   "name": "BODYARMOR Sports Drink",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY one (1) BODYARMOR Sports Drink 16 oz. btl. GET 2ND FREE! with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715122,
+   "name": "Pomegranates, or H-E-B Flavor Bombs Sweet Tomatoes",
+   "pre_price_text": "",
+   "price_text": "2.97",
+   "post_price_text": "ea.",
+   "sale_story": null,
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715137,
+   "name": "H-E-B Seedless Mini Peppers",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $1 with yellow coupon in-store or online",
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714447,
+   "name": "TEXAS WINES",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "10% off",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "Discount reflected at shelf. Inventory on hand only.\nAvailable in-store and via curbside where available."
+  },
+  {
+   "id": 1039714985,
+   "name": "Quest Protein Chips, or BUILT Puff Protein Bars",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE 20% with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714560,
+   "name": "Bayou Boil House® by H-E-B Hot Boiled Seafood Event Items",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $5 OFF YOUR BASKET with yellow coupon in-store or online WHEN YOU BUY $25",
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-19",
+   "valid_to": "2026-09-20",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399418,
+   "name": "Central Market Totopos Tortilla Chips",
+   "pre_price_text": "",
+   "price_text": "2.98",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399425,
+   "name": "CAFE Olé by H-E-B® Taste of Texas Series Whole Bean or Ground, 12 - 32 oz. bag, Single Serve Cup Coffee, 12 - 100 ct., or Cold Brew Coffee Concentrate, 32 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $2 with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399466,
+   "name": "H-E-B Sauced Pesto or Scampi Shrimp",
+   "pre_price_text": "",
+   "price_text": "7.97",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Deli"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399486,
+   "name": "Kellogg's Rice Krispies Treats",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY Kellogg's Rice Krispies Treats, 16 ct. assorted varieties GET FREE! with yellow coupon in-store or online Austin Sandwich Crackers 8 pk., assorted varieties SAVE up to $2.87!",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714546,
+   "name": "FRESH! H-E-B Prime 1 Beef Chuck Roast",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "lb.",
+   "sale_story": "SAVE up to $3 per lb.",
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "Limit-2 pkgs, with an additional $10 purchase"
+  },
+  {
+   "id": 1039715038,
+   "name": "H-E-B Split Top Honey Wheat Bread",
+   "pre_price_text": "2 for",
+   "price_text": "4.00",
+   "post_price_text": "",
+   "sale_story": "with yellow coupon in-store or online WHEN YOU BUY 2",
+   "categories": [
+    "Bakery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399422,
+   "name": "SIETE Tortilla or Potato Chips, or Puff Snacks",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $1 with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714490,
+   "name": "Gum Drop Grapes or H-E-B Organics™ Fresh Baby Spinach",
+   "pre_price_text": "",
+   "price_text": "1.97",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399415,
+   "name": "H-E-B Variety Pack Chips",
+   "pre_price_text": "",
+   "price_text": "7.38",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399429,
+   "name": "H-E-B Candy Cups",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $1 with yellow coupon in-store or online",
+   "categories": [
+    "Frozen Food"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715069,
+   "name": "G·U·M Oral Care Items",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $3 WHEN YOU BUY 2 with yellow coupon in-store or online",
+   "categories": [
+    "Health & Beauty"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "(excludes travel/trial sizes)"
+  },
+  {
+   "id": 1041399433,
+   "name": "Amy's Frozen Pizza",
+   "pre_price_text": "",
+   "price_text": "6.28",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $3",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399439,
+   "name": "H-E-B, Higher Harvest by H-E-B™, H-E-B Organics\", H-E-B Mi Tienda® Hill Country Fare, or Central Market Baking Items",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $3 OFF YOUR BASKET with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": "(excludes vegetable and canola oils, & Hill Country Fare spices)"
+  },
+  {
+   "id": 1041399460,
+   "name": "H-E-B Texas Grown Tail & Shell On Large Raw Frozen Shrimp, 31 - 40 ct., 16 oz., or Philly's Raw Texas Farm-Raised White Shrimp, 36 - 50 ct., 16 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $2 with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399441,
+   "name": "H-E-B Premium Bacon",
+   "pre_price_text": "",
+   "price_text": "3.99",
+   "post_price_text": "ea.",
+   "sale_story": null,
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399446,
+   "name": "H-E-B Premium Smoked Sausage",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY H-E-B Premium Smoked Sausage 10 ct. Texas-Size Pack assorted varieties GET FREE! with yellow coupon in-store or online H-E-B Soft Drinks 12 pk., 12 oz. cans assorted varieties",
+   "categories": [
+    "Meat and Seafood"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399436,
+   "name": "H-E-B Texas Shaped Hashbrown Patties",
+   "pre_price_text": "",
+   "price_text": "2.68",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399482,
+   "name": "Meal Simple® Oven-Ready Starters",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $3 WHEN YOU BUY 2 with yellow coupon in-store or online",
+   "categories": [
+    "Deli"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399485,
+   "name": "Little Bites Pastries Value Pack",
+   "pre_price_text": "",
+   "price_text": "5.98",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399474,
+   "name": "Yellow TexFest Bouquet",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "SAVE $2 with yellow coupon in-store or online",
+   "categories": [
+    "Flowers & Decor"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399479,
+   "name": "H-E-B Texas Roots or H-E-B Texas Backyard® Pumpkins or Mums",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Save 20% with yellow coupon in-store or online",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399477,
+   "name": "Any Sunflower Bunch",
+   "pre_price_text": "",
+   "price_text": "6.98",
+   "post_price_text": "ea.",
+   "sale_story": null,
+   "categories": [
+    "Flowers & Decor"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399470,
+   "name": "Nabisco Ritz Crackers or Toasted Chips",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "GET FREE! with yellow coupon in-store or online H-E-B Soft Drink, 2 L btl. assorted varieties SAVE up to $1.78!",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399456,
+   "name": "Moontail Seafood Frozen Tilapia Fillets",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY Moontail Seafood Frozen Tilapia Fillets, 4 lb. bag GET FREE! with yellow coupon in-store or online Ottavio Avocado Oil, 8.5 oz. SAVE up to $5.58!",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399450,
+   "name": "H-E-B Frozen Fully Cooked Meatballs",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "\"Buy H-E-B Frozen Fully Cooked Meatballs, 35 oz., homestyle or Italian style get Free! with yellow coupon in-store or online H-E-B Frozen Bread Sticks or Garlic Bread, 10.5 - 13 oz., assorted varieties",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041399491,
+   "name": "Mug Root Beer, H-E-B Creamy Creations® Ice Cream",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY Mug Root Beer GET FREE! H-E-B Creamy Creations® Ice Cream, SAVE up to $2.48!",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715188,
+   "name": "Fanta Soda",
+   "pre_price_text": "",
+   "price_text": "4.67",
+   "post_price_text": "ea. with yellow coupon in-store or online",
+   "sale_story": "SAVE $1",
+   "categories": [
+    "Drinks"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715183,
+   "name": "Kellogg's Family Size Frosted Flakes or Corn Flakes Cereal",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "SAVE up to $3.48!",
+   "sale_story": "BUY Kellogg's Family Size Frosted Flakes or Corn Flakes Cereal GET FREE! H-E-B Twisters® Sandwich Cookies",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039715155,
+   "name": "Werther's Original Caramel Popcorn",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BUY one (1) Werther's Original Caramel Popcorn, 5 - 5.29 oz. assorted varieties GET 2ND FREE! with yellow coupon in-store or online SAVE up to $2.98!",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1039714505,
+   "name": "Green Bartlett Pears or Cosmic Crisp Apples",
+   "pre_price_text": "",
+   "price_text": "1.27",
+   "post_price_text": "lb.",
+   "sale_story": null,
+   "categories": [
+    "Fruit and Vegetables"
+   ],
+   "valid_from": "2026-09-16",
+   "valid_to": "2026-09-22",
+   "sku": null,
+   "disclaimer_text": null
+  }
+ ]
+}
