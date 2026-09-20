@@ -1,0 +1,4229 @@
+{
+ "_meta": {
+  "retailer": "CVS Pharmacy",
+  "flyer_id": 8139677,
+  "postal_code": "77008",
+  "valid_from": "2026-09-20",
+  "valid_to": "2026-09-27",
+  "source": "https://dam.flippenterprise.net/flyerkit/publication/8139677/products",
+  "captured": "2026-09-20",
+  "item_count": 293,
+  "note": "Real ad copy, unmodified. Includes category-header rows with no promo text on purpose."
+ },
+ "items": [
+  {
+   "id": 1041116870,
+   "name": "Makeup & Nails",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116962,
+   "name": "Hair Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117124,
+   "name": "Grocery",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117153,
+   "name": "Household>",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117926,
+   "name": "Household>",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120124,
+   "name": "Vitamins & Nutrition",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115640,
+   "name": "Post 11-16 oz or Grape-Nuts cereal 20.5 oz.",
+   "pre_price_text": "",
+   "price_text": "1.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "51974",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118840,
+   "name": "Biofreeze Professional gel, roll- on 2.5-3 oz, spray 4 oz, pump 16 oz, Triple Target gel 3 oz or Ultraflex patch 4 ct.",
+   "pre_price_text": "",
+   "price_text": "14.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25453",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118720,
+   "name": "ALL CVS Brand adult digestive health",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "41387",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115735,
+   "name": "Batiste dry shampoo 3.81-5.71 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* Also get savings with $2.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23969",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115683,
+   "name": "Extra Big Deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116721,
+   "name": "Feminine & Adult Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116995,
+   "name": "Oral Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119286,
+   "name": "Spend $20 Get $5 ExtraBucks Rewards®◆. Find these offers below.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116931,
+   "name": "PERSONAL CARE",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120196,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121805,
+   "name": "Shave & Deodorant",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120029,
+   "name": "ALL CVS Brand vitamins A to Z",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77600",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121540,
+   "name": "ALL Old Spice hair care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with $3.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "76464",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115655,
+   "name": "September 20-26, 2026",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115620,
+   "name": "Lysol disinfectant spray 12.5 oz. wipes 75-80 ct. or Finish Powerball Ultimate tabs 11 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE*. Also get savings with Buy 2 get $3 ExtraBucks Rewards**. WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "5308",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041117565,
+   "name": "Baby Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119945,
+   "name": "ALL Prevagen",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "10% OFF WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "80665",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117381,
+   "name": "Celebrating every curl, color & tradition",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117756,
+   "name": "Oral Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117826,
+   "name": "FOOD & HOUSEHOLD",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115696,
+   "name": "Select Kellogg's cereal 7.8-14.5 oz",
+   "pre_price_text": "",
+   "price_text": "1.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15719",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116758,
+   "name": "Vitamins & Nutrition",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119459,
+   "name": "ANY Poise pads or liners",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$7.00 on 2 Digital mfr coupon + Buy 2 get $5 ExtraBucks Rewards* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18802",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118518,
+   "name": "ANY Aleve or Bayer aspirin",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*. Also get savings with Buy 2 get $2 ExtraBucks Rewards**. WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "47878",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120503,
+   "name": "ALL Revlon Super Lustrous lipstick",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "21617",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121299,
+   "name": "extra big deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121629,
+   "name": "ANY Crest 3D White Deep Stain Remover 2.1 oz, Brilliance, Whitening Therapy, Gum care or Clean Breath 3.8-4.8 oz paste.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$4.00 Digital mfr coupon + Spend $15 get $7 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "85544",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121896,
+   "name": "ANY Schick/Skintimate 4 ct. or 12 ct. disposable razors.",
+   "pre_price_text": "2/",
+   "price_text": "14.00",
+   "post_price_text": "WITH CARD or reg retail ea.",
+   "sale_story": "Also get savings with $3.00 Digital mfr coupon + Buy 2 get $4 Extrabucks Rewards®⧫",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "79522",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121906,
+   "name": "Extra Big Deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122220,
+   "name": "Jack Link's beef jerky 10 oz",
+   "pre_price_text": "",
+   "price_text": "14.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "1766",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122172,
+   "name": "Doritos 9.25-10.7 oz, Ruffles 5.5- 8.5 oz or Tostitos 9-13 oz (excludes Simply and Baked).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "30692",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122228,
+   "name": "Cheez-It 7 oz.",
+   "pre_price_text": "",
+   "price_text": "2.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "50298",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122281,
+   "name": "Tide evo 14-16 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$2.00 Digital mfr coupon + Spend $25 get $5 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23778",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122393,
+   "name": "extra big deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122409,
+   "name": "Posters",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "40% OFF WITH CARD",
+   "categories": [
+    "General Merchandise"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "90586",
+   "disclaimer_text": "Offer valid in-store only."
+  },
+  {
+   "id": 1041122349,
+   "name": "ALL Glade, Windex or Scrubbing Bubbles",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "55738",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120701,
+   "name": "ANY NYX Professional Makeup",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $6 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "63665",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121012,
+   "name": "ANY RoC facial care.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $30 get $10 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "76464",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116796,
+   "name": "Baby Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117029,
+   "name": "Shave & Deodorant",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117248,
+   "name": "BOGO FREE Vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO FREE",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120837,
+   "name": "Makeup & Nails",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120327,
+   "name": "Baby Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120891,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121333,
+   "name": "Extra Big Deals. Find these offers below.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$1.00 Digital mfr coupon",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122387,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122036,
+   "name": "Candy",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120672,
+   "name": "ANY Sally Hansen cosmetics or beauty tools",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $5 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "10410",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120727,
+   "name": "Revlon cosmetics or beauty tools (excludes Super Lustrous lipstick)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$3.00 Digital mfr coupon + Spend $15 get $5 ExtraBucks®⧫ Rewards WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "21618",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121318,
+   "name": "ANY EVERPRO Gray Away",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $4 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88405",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121384,
+   "name": "Batiste dry shampoo 3.81-5.71 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* Also get savings with $2.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23969",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041119002,
+   "name": "CVS Brand adult allergy relief (excludes ALL products with pseudoephedrine or ephedrine)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "41326",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116643,
+   "name": "HEALTH",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116683,
+   "name": "Health & Medicine",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121262,
+   "name": "Skin & Sun Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115865,
+   "name": "Adult Airborne cold tablets 10 ct. or gummies 21 ct. (excludes dual action).",
+   "pre_price_text": "",
+   "price_text": "7.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "20623",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115785,
+   "name": "Claritin adult tablets, liqui-gels or children's chewables 30 ct. (excludes RediTabs 30 ct. and ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "19.99",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $5.00 Digital mfr coupon",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "6492",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116382,
+   "name": "Revlon cosmetics or beauty tools (excludes Super Lustrous lipstick)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$3.00 Digital mfr coupon + Spend $15 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "21618",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116119,
+   "name": "ANY Pampers Bagged Easy Ups, Cruisers 360°, Swaddlers or Splashers",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "MIX & MATCH Buy 1 get 1 40% OFF* Also get savings with $3.00 on 2 Digital mfr coupon + Spend $25 get $8 ExtraBucks Rewards**",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23451",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116531,
+   "name": "Nature's Bounty Vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "8157",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116414,
+   "name": "ANY Maybelline cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$4.00 Digital mfr coupon + Spend $20 get $8 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "7775",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116564,
+   "name": "Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117351,
+   "name": "L'Oreal Excellence, Feria, Garnier Nutrisse, Olia hair color, Mielle Kalahari Melon & Aloe hair care and other participating brands",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $18 Get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25088",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041117317,
+   "name": "Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118224,
+   "name": "ALL Hyland's Naturals kids cold or sleep products",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "25% OFF WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "39150",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118147,
+   "name": "Adult Robitussin max strength 8 oz.",
+   "pre_price_text": "",
+   "price_text": "12.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25560",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121657,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119208,
+   "name": "Health & Medicine",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121581,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121783,
+   "name": "extra big deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118652,
+   "name": "ANY Band-Aid bandages",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23328",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121858,
+   "name": "ANY Gillette or Venus cartridges",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with Buy 2 get $12 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "6165",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121506,
+   "name": "ANY Garnier Whole Blends shampoo or conditioner 11.7-12.5 oz",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77186",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121815,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120911,
+   "name": "extra big deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118885,
+   "name": "CVS Brand adult pain relievers 72 ct. or larger, or sleep aids",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23446",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118762,
+   "name": "CVS Brand stop smoking aids (excludes gum and lozenges 10-20 ct.).††",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "67911",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120780,
+   "name": "ANY wet n wild cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "1708",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041117659,
+   "name": "Skin & Sun Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122328,
+   "name": "COTTONELLE 9 mega rolls or VIVA 2 quad rolls",
+   "pre_price_text": "",
+   "price_text": "9.99",
+   "post_price_text": "",
+   "sale_story": "Also get savings with Spend $15 get $5 ExtraBucks Rewards® With Card",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77086",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116833,
+   "name": "BEAUTY",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117526,
+   "name": "Vitamins & Nutrition",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117487,
+   "name": "Feminine & Adult Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117726,
+   "name": "Hair Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121283,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116142,
+   "name": "CVS Brand feminine care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with Spend $20 get $5 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18518",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041115663,
+   "name": "extra big deals",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117188,
+   "name": "OTHER OFFERS",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120611,
+   "name": "ANY Physicians Formula cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $6 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "11684",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121970,
+   "name": "Russell Stover pumpkins 1.3 oz",
+   "pre_price_text": "2/",
+   "price_text": "3.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "6067",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119836,
+   "name": "Neuriva brain health plus capsules 30 ct., gummies 50 ct. or Memory 3D 30 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get $10 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15114",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121213,
+   "name": "ANY Dove bar soap 6 pk., women's body wash 20 oz, foaming 13.5 oz, oil body wash 15.3 oz or MEN+Care bar soap 6 pk.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88132",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122204,
+   "name": "Pepperidge Farm cookies 5-8.6 oz.",
+   "pre_price_text": "2/",
+   "price_text": "9.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "12463",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117061,
+   "name": "FOOD & HOUSEHOLD",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117888,
+   "name": "Grocery",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115674,
+   "name": "CVS",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117858,
+   "name": "Candy",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119132,
+   "name": "Zyrtec 90 ct.",
+   "pre_price_text": "",
+   "price_text": "39.99",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $10.00 Digital mfr coupon + Buy 1 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "96677",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041115719,
+   "name": "ALL Revlon Super Lustrous lipstick",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "MIX & MATCH Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "21617",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115807,
+   "name": "ANY Garnier Fructis shampoo/conditioner 11.3-13 oz or leave-in conditioner 10.2 oz.",
+   "pre_price_text": "",
+   "price_text": "4.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get 2 extra with purchase",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3056",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115894,
+   "name": "Alka-Seltzer Plus Powerfast Fizz 24 ct. or Coricidin HBP 16-20 ct",
+   "pre_price_text": "",
+   "price_text": "9.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15868",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116447,
+   "name": "O·P·I nail.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Get a $3 off 2 ExtraCare coupon^ in the CVS app",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3074",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116353,
+   "name": "ANY L'oreal cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3181",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118042,
+   "name": "Vicks DayQuil/NyQuil Kids or Sinex Kids",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25291",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118111,
+   "name": "ALL children's EEZ co pops.",
+   "pre_price_text": "",
+   "price_text": "6.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Candy"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "14432",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119719,
+   "name": "ALL CVS Brand vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO FREE* WITH CARD",
+   "categories": [
+    "Vitamins & Nutrition"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77600",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041119750,
+   "name": "ALL Nature Made vitamins.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "508",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120097,
+   "name": "ALL One A Day, Citracal, Phillips' colon health or Flintstones.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18184",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120228,
+   "name": "Similac powder 20.1-30.8 oz, 360 Total Care, Advance or Sensitive ready to feed infant formula 32 oz (excludes whole milk and Alimentum)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $10 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25816",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121069,
+   "name": "L'Oreal facial care (excludes Collagen and Cleansers).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$6.00 Digital mfr coupon + Spend $20 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "332",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120056,
+   "name": "ALL Nature's Bounty vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "8157",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121094,
+   "name": "Neutrogena makeup remover cleansing towelettes (excludes 7 and 21 ct.)",
+   "pre_price_text": "",
+   "price_text": "6.00",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Get a $2 off ExtraCare coupon^ in the CVS app + Buy 2 get $6 ExtraBucks Rewards®",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "12059",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120809,
+   "name": "ALL one+other cotton, nail, beauty tools, polish remover or Pop•arazzi nail care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23698",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121130,
+   "name": "ALL Olay body wash pumps 35 oz.",
+   "pre_price_text": "",
+   "price_text": "10.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "19918",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119037,
+   "name": "ALL Tums",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18233",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041119098,
+   "name": "MiraLAX (excludes Mix-In Pax single serve)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with $3.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23957",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121352,
+   "name": "ANY Revlon ColorSilk hair or After Color",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $5 ExtraBucks Rewards®◆ WITH CARD+",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "332",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121369,
+   "name": "Clairol hair color (excludes pro-primer)",
+   "pre_price_text": "",
+   "price_text": "6.00",
+   "post_price_text": "on 2 Digital mfr coupon",
+   "sale_story": "$6.00 on 2 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "91050",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121673,
+   "name": "Colgate Optic White Advanced 3.2 oz, Charcoal, Purple, Sensitive 3.8-4.2 oz, Total 3 oz or hello adult toothpaste",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 on 2 Digital mfr coupon + Buy 2 get $6 ExtraBucks Rewards®⧫",
+   "categories": [
+    "Oral Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "22325",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121745,
+   "name": "Sensodyne, Pronamel or Parodontax toothpaste (excludes multi-pks., Clinical White/Enamel Strength and kids).",
+   "pre_price_text": "",
+   "price_text": "7.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with Buy 2 get $3 ExtraBucks Rewards®",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18693",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121701,
+   "name": "ANY Crest 3D White 3-3.3 oz., Pro-Health 5.1 oz., Plus 7.2 oz., Clean Breath 2.5 oz paste, Scope/Crest Pro-Health Clean Mint, Intense 1L or Advanced 500ML.",
+   "pre_price_text": "2/",
+   "price_text": "10.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": "Also get savings with $3.00 on 2 Digital mfr coupon + Buy 2 get $5 ExtraBucks Rewards®",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "85544",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121686,
+   "name": "ALL Crest paste, Oral-B Complete, Glide floss 2 pk., picks 60-150 ct., Fixodent, Kid's Crest/Kid's Oral-B paste, brush or Burt's Bees kids paste",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Oral Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "66117",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121793,
+   "name": "Secret deodorant or whole body deodorizing body wash (excludes clinical, sprays, twin pks. and whole body deodorant).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$5.00 on 3 Digital mfr coupon + Buy 2 get $4 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "9967",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121877,
+   "name": "Gillette or Venus razors (excludes disposables).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*, Also get savings with Buy 2 get $6 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88728",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121841,
+   "name": "Dove MEN+Care deodorant or dry sprays (excludes twin pk.)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*, Also get savings with $4.00 on 2 Digital mfr coupon + Buy 2 get $3 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "4577",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121918,
+   "name": "Halloween candy singles 0.7-3 oz (excludes Russell Stover pumpkins)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get 2 FREE* WITH CARD",
+   "categories": [
+    "Candy"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "61967",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121945,
+   "name": "Halloween 0.56-7.2 oz or Harvest novelty candy 7-9.5 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "66563",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122045,
+   "name": "Lindt Truffles 5.1 oz or Ferrero Rocher Squares 3.7 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "62389",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122101,
+   "name": "Yasso Greek yogurt bars, poppables, Magnum bars 3 ct., mini 11.1 oz., Oreo novelty ice cream 4-5 ct. or Edy's/Dreyer's Outshine bars 6 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "8857",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122128,
+   "name": "Select Kellogg's cereal 7.8-14.5 oz.",
+   "pre_price_text": "",
+   "price_text": "1.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15719",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122137,
+   "name": "Well Market or Gold Emblem purified water 24 pk., 16.9 oz bottles",
+   "pre_price_text": "",
+   "price_text": "2.99",
+   "post_price_text": "✧ WITH CARD +CRV",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23125",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121485,
+   "name": "ALL Men's or Women's Rogaine 3 ct",
+   "pre_price_text": "",
+   "price_text": "49.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "339",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122267,
+   "name": "Arm & Hammer detergent 27.5-28 oz, Odor Blasters 15 oz or power paks 14 ct.",
+   "pre_price_text": "",
+   "price_text": "3.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "14846",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122146,
+   "name": "Well Market chocolate covered gourmet nuts 8 oz.",
+   "pre_price_text": "",
+   "price_text": "6.29",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "61791",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122244,
+   "name": "Gatorade 8 pk. 20 oz bottles",
+   "pre_price_text": "2/",
+   "price_text": "12.00",
+   "post_price_text": "or reg retail ea.² WITH CARD +CRV",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "81024",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122369,
+   "name": "Charmin Ultra 4 mega, essentials 6 mega, Bounty Select-A-Size 2 double or 1 mega roll.",
+   "pre_price_text": "",
+   "price_text": "6.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $1.00 Digital mfr coupon + Spend $25 get $5 ExtraBucks Rewards®",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88096",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122298,
+   "name": "Purex 128 oz or 150 oz.",
+   "pre_price_text": "",
+   "price_text": "9.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with Buy 1 get $4 ExtraBucks Rewards®",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "70628",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122305,
+   "name": "Gain liquid 46 oz, fabric softener 44 oz, flings! 14-16 ct. or fireworks 5 oz.",
+   "pre_price_text": "",
+   "price_text": "5.49",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $2.50 Digital mfr coupon + Spend $25 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "87699",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122377,
+   "name": "Lysol disinfectant spray 12.5 oz, wipes 75-80 ct. or Finish Powerball Ultimate tabs 11 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* Also get savings with Buy 2 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "5308",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122251,
+   "name": "ALL soda 1-1.5 liter or 6 pk., 16.9 oz bottles",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*✧ WITH CARD +CRV",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "57034",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items.Plus deposit where required."
+  },
+  {
+   "id": 1041116902,
+   "name": "Skin & Sun Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121523,
+   "name": "WITH CARD ANY Garnier Fructis shampoo/conditioner 11.3-13 oz or leave-in conditioner 10.2 oz.",
+   "pre_price_text": "",
+   "price_text": "4.49",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $4.00 on 2 Digital mfr coupon + Buy 2 get $2 ExtraBucks Rewards®",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3056",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122236,
+   "name": "Grocery",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122052,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122019,
+   "name": "Mars treating fun size 5.5-9.6 oz.",
+   "pre_price_text": "",
+   "price_text": "3.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with Buy 2 get $1 Extrabucks Rewards®⧫",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23888",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118300,
+   "name": "Claritin adult tablets, liqui-gels or children's chewables 30 ct. (excludes RediTabs 30 ct. and ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "19.99",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $5.00 Digital mfr coupon",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "6492",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121866,
+   "name": "ANY Schick/Skintimate 4 ct. or 12 ct. disposable razors",
+   "pre_price_text": "2/",
+   "price_text": "14.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": "Also get savings with $3.00 Digital mfr coupon + Buy 2 get $4 Extrabucks Rewards",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "79522",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119488,
+   "name": "Feminine & Adult Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117221,
+   "name": "Seasonal, Photo, Toys & Gifts",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122010,
+   "name": "Hershey's jumbo snack size 14.4-20.1 oz or Mars jumbo fun size 18.28-18.71 oz.",
+   "pre_price_text": "",
+   "price_text": "9.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "804",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116307,
+   "name": "Get your flu shot today",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Get your flu shot today",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117597,
+   "name": "BEAUTY",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115601,
+   "name": "Adult Zyrtec 24-35 ct., Allergen Shield spray 200 ct., children's 8 oz or 24 ct. (excludes ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "19.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "$5.00 Digital mfr coupon, $4.00 Digital mfr coupon",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "44379",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115614,
+   "name": "Adult Robitussin max strength 8 oz.",
+   "pre_price_text": "",
+   "price_text": "12.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25560",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115629,
+   "name": "ALL McCafé, La Colombe, Green Mountain, Donut Shop, Swiss Miss or seasonal K-Cups 10 ct",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77003",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116089,
+   "name": "CVS Brand adult allergy relief excludes ALL products with pseudoephedrine or ephedrine Allergy Relief Cetirizine Hydrochloride Capsules, 10 mg Allergy Nasal Spray",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "41326",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116061,
+   "name": "ALL Nature Made vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "508",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116481,
+   "name": "ALL CoverGirl, Kiss, L.A. Girl, Kpop cosmetics, Olive & June or O•P•I nail.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO 50% off* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3074",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041117284,
+   "name": "ALL Nature Made vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "508",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041117692,
+   "name": "PERSONAL CARE",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117960,
+   "name": "OTHER OFFERS",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115606,
+   "name": "Adult Robitussin 4 oz, Theraflu nasal mist 0.34 oz, Flu max 8.3 oz, 6 ct. or Advil Sinus, cold/flu 10 ct. (excludes ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "8.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "404",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115754,
+   "name": "ANY Dove body wash pumps 30-30.6 oz.",
+   "pre_price_text": "",
+   "price_text": "12.99",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $5.00 on 2 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "7464",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116033,
+   "name": "ALL CVS Brand vitamins A to Z",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77600",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116174,
+   "name": "ALL Nature's Bounty vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "MIX & MATCH Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "8157",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116233,
+   "name": "ALL CVS Brand children's health care products.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD ALL CVS Brand children's health care products.",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15373",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041117415,
+   "name": "HEALTH",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117454,
+   "name": "Health & Medicine",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118259,
+   "name": "Adult Robitussin 4 oz, Theraflu nasal mist 0.34 oz, Flu max 8.3 oz, 6 ct. or Advil Sinus, cold/flu 10 ct. (excludes ALL products with pseudoephedrine or ephedrine)",
+   "pre_price_text": "",
+   "price_text": "8.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "404",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118453,
+   "name": "Extra Big Deals. Find these offers below.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118485,
+   "name": "ALL CVS Brand eye or ear care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "41407",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118345,
+   "name": "Adult Nasacort 120 sprays, Allegra 24 gelcaps, 30 tablets or Xyzal 35 ct. (excludes ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "19.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 Digital mfr coupon",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23075",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118621,
+   "name": "ALL adult ZzzQuil sleep, PURE Zzzs vitamins or Nervive",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "55981",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118681,
+   "name": "ANY Nexium 24HR 42 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $15 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "65242",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118958,
+   "name": "Adult Airborne cold tablets 10 ct. or gummies 21 ct. (excludes dual action)",
+   "pre_price_text": "",
+   "price_text": "7.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "20623",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119317,
+   "name": "ANY AZO or Estroven feminine care supplements",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "71070",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119597,
+   "name": "ANY U by Kotex",
+   "pre_price_text": "56164",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$1.00 Digital mfr coupon + Spend $20 get $5 ExtraBucks®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "56164",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120529,
+   "name": "ANY L'Oreal cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3181",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119355,
+   "name": "CVS Brand feminine care (excludes pregnancy test kits).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with Spend $20 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18518",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119427,
+   "name": "ANY Cora feminine care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with Spend $20 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "1048",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119666,
+   "name": "ANY Ensure nutrition shakes or powders.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25449",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119780,
+   "name": "ALL Ocuvite or PreserVision vitamins",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3882",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120354,
+   "name": "Boxed Huggies diapers, Pull-Ups or Goodnites.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get $10 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "5531",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118796,
+   "name": "Sudafed or Tylenol cold",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "10941",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121469,
+   "name": "L'oreal Excellence, Feria, Garnier Nutrisse, Olia hair color, Mielle Kalahari Melon & Aloe hair care and other participating brands.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $18 get $5 ExtraBucks Rewards®♦ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25088",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119911,
+   "name": "ALL Centrum or Caltrate",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "54870",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120379,
+   "name": "ALL CVS Brand diapers, baby wipes, baby rash, electrolytes, toiletries or pain relief products",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "32433",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121030,
+   "name": "ANY Olay Regenerist Eyes, Whips, Ingredients Collections, Regenerist Max collection, Super Serum or cream",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $45 get $15 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "91050",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121196,
+   "name": "Aquaphor/Eucerin facial care, lip, first aid, children's, baby, hand & body lotion, cream or hydrogel excludes Radiant Tone and Eucerin lotion 33.8 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $10 ExtraBucks Rewards® WITH CARD",
+   "categories": [
+    "Skin & Sun Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "16805",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121713,
+   "name": "Colgate Optic White Advanced 3.2 oz, Charcoal, Purple, Sensitive 3.8-4.2 oz, Total 3 oz or hello adult toothpaste",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 on 2 Digital mfr coupon + Buy 2 get $6 ExtraBucks Rewards®⧫",
+   "categories": [
+    "Oral Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "22325",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122001,
+   "name": "ALL Hershey's Snack Size 9-11.6 oz, Butterfinger & Co. Fun Size or M&M's Ghoul's Mix 10 oz.",
+   "pre_price_text": "2/",
+   "price_text": "9.00",
+   "post_price_text": "or $5.49 ea. WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Candy"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "19167",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122400,
+   "name": "Joyward Halloween home decor (excludes lighting and animation).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "25% OFF WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25837",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122428,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121961,
+   "name": "ALL M&Ms Sharing Size 7.4-10.1 oz, Mars chocolate minis 8-9.7 oz or Dove pouches 6.74-7.61 oz.",
+   "pre_price_text": "2/",
+   "price_text": "10.00",
+   "post_price_text": "or $5.49 ea. WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "4902",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122274,
+   "name": "Lysol disinfectant spray 12.5 oz, wipes 75-80 ct. or Finish Powerball Ultimate tabs 11 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* Also get savings with Buy 2 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "5308",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121596,
+   "name": "ANY Colgate Optic White Stain Fighter 3.8-4.2 oz, Max 6.3 oz, Total 3.3 oz or 2in1 4.6 oz toothpaste",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$2.00 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "16435",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121851,
+   "name": "Schick razors or cartridges (excludes disposables).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "80181",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122314,
+   "name": "Tide PODS 18-42 ct., Downy 88 oz, Rinse & Refresh 36.7 oz, beads 13.4 oz, Bounce sheets 130 or 240 ct.",
+   "pre_price_text": "",
+   "price_text": "13.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $3.00 Digital mfr coupon + Spend $25 get $5 ExtraBucks Rewards®",
+   "categories": [
+    "Household",
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15500",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122336,
+   "name": "Household",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122357,
+   "name": "ALL CVS batteries.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "26556",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115770,
+   "name": "Kellogg's Nutri-Grain bars 5-8 ct. or Rice Krispies Treats 6 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "MIX & MATCH Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "59973",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041116202,
+   "name": "All CVS Brand adult digestive health",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "41387",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118076,
+   "name": "CVS Brand adult cold relief (excludes cough drops and ALL products with pseudoephedrine or ephedrine)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $5 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "94037",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119241,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120475,
+   "name": "Revlon Super Lustrous Lipstick",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO FREE* WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "21617",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120585,
+   "name": "ANY Maybelline cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$4.00 Digital mfr coupon + Spend $20 get $8 ExtraBucks Rewards WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "7775",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121645,
+   "name": "Oral Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121887,
+   "name": "Old Spice deodorant (excludes sprays, multi-pks. and total body).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$5.00 on 3 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "9955",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122189,
+   "name": "ALL soda 12-15 pk. or mini cans 10 pk.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get 3rd FREE** WITH CARD + CRV",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "12542",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122341,
+   "name": "ALL Temptations cat treats.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "69199",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041119065,
+   "name": "ANY CVS Brand diabetes care††",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $25 get $8 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "97783",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119569,
+   "name": "ANY Tampax, Always Radiant, Infinity, Pure Cotton pads, liners, ZZZ period underwear or L. feminine care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $20 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "10107",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119807,
+   "name": "ALL MegaRed or Move Free",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "20% OFF WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "94220",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119871,
+   "name": "Qunol vitamins (excludes Brain Health)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "19683",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120756,
+   "name": "ANY Milani cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "6029",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120865,
+   "name": "ANY Almay cosmetics or makeup remover",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$3.00 Digital mfr coupon + Spend $15 get $5 ExtraBucks Rewards WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "67040",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121153,
+   "name": "ANY Dove body wash pumps 30-30.6 oz.",
+   "pre_price_text": "",
+   "price_text": "12.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 on 2 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®⧫",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77186",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041117793,
+   "name": "Shave & Deodorant",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118190,
+   "name": "ALL CVS Brand children's health care products",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15373",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118414,
+   "name": "Adult Zyrtec 24-35 ct., Allergen Shield spray 200 ct., children's 8 oz or 24 ct. (excludes ALL products with pseudoephedrine or ephedrine).",
+   "pre_price_text": "",
+   "price_text": "19.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 Digital mfr coupon",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "44379",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041118546,
+   "name": "ANY adult Dramamine, Tagamet, Beano, Phazyme or Fleet brand",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "81848",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041115926,
+   "name": "ANY Schick/Skintimate 4 ct. or 12 ct. disposable razors.",
+   "pre_price_text": "2/",
+   "price_text": "14.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": "Also get savings $3.00 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "79522",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041116599,
+   "name": "Zyrtec 90 ct.",
+   "pre_price_text": "",
+   "price_text": "39.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $10.00 Digital mfr coupon + Buy 1 get $3 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "96677",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118578,
+   "name": "ALL Culturelle digestive health, vitamins or kids",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18628",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041118375,
+   "name": "Alka-Seltzer Plus Powerfast Fizz 24 ct. or Coricidin HBP 16-20 ct",
+   "pre_price_text": "",
+   "price_text": "9.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15868",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121566,
+   "name": "ANY L'Oreal Elvive hair care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$3.00 on 2 Digital mfr coupon + Buy 2 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "60344",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121727,
+   "name": "ANY Biotène",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $4 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25819",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122028,
+   "name": "Mars Chocolate Fun Size 9.5-11.5 oz.",
+   "pre_price_text": "2/",
+   "price_text": "8.00",
+   "post_price_text": "or $5.49 ea.",
+   "sale_story": "Also get savings with Buy 2 get $1 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "29175",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041118925,
+   "name": "Adult Flonase 144 sprays or Sensimist 120 sprays",
+   "pre_price_text": "",
+   "price_text": "28.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "82252",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119176,
+   "name": "Do you have a Medicare Advantage Plan?",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119394,
+   "name": "ANY Depend underwear, guards or shields",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Digital mfr coupon + Buy 2 get $7 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3761",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041119523,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041119627,
+   "name": "ALL CVS Brand bladder leak protection",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 140% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15185",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120154,
+   "name": "ANY goli Nutrition",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $5 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "733",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120264,
+   "name": "Johnson's, Desitin, Aveeno kids, baby care, children's Zyrtec 4 oz, infant/ children's Tylenol, Motrin pain relief or Zarbee's baby care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with $1.50 Digital mfr coupon + Spend $20 get $5 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "8657",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120299,
+   "name": "ALL CVS Brand diapers, baby wipes, baby rash, electrolytes, toiletries or pain relief products",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "BOGO 50% off* WITH CARD",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "32433",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120405,
+   "name": "ANY Pampers bagged Easy Ups, Cruisers 360°, Swaddlers or Splashers",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with $3.00 on 2 Digital mfr coupon + Spend $25 get $8 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Baby"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23451",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120555,
+   "name": "ALL CoverGirl, Kiss, L.A. Girl, Kpop cosmetics, Olive & June or O•P•I nail",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with a $3 off 2 ExtraCare coupon^ in the CVS app WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3074",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041119986,
+   "name": "ALL Osteo Bi-Flex",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "947",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041120945,
+   "name": "ANY Garnier facial care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $15 get $6 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88405",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120966,
+   "name": "Dove body wash pumps 30-30.6 oz.",
+   "pre_price_text": "",
+   "price_text": "12.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards WITH CARD",
+   "categories": [
+    "General Merchandise"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77186",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121247,
+   "name": "ANY AXE body wash or shower gel",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$5.00 on 2 Digital mfr coupon + Buy 2 get $2 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "60344",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121405,
+   "name": "ANY Head & Shoulders hair care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$3.00 Digital mfr coupon + Buy 2 get $4 ExtraBucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Hair Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "12059",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041120638,
+   "name": "ANY Neutrogena cosmetics",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $10 get $5 ExtraBucks Rewards®",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "4938",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121049,
+   "name": "La Roche-Posay acne or facial care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $30 get $10 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Beauty"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "3056",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121112,
+   "name": "ANY Cetaphil acne or Differin",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get $3 ExtraBucks Rewards® WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "20379",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121421,
+   "name": "Suave hair care, deodorant or body wash 30 oz (excludes 22.5 oz).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with Buy 2 get $2 ExtraBucks Rewards®⧫",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "20379",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121435,
+   "name": "Pantene, Aussie or Herbal Essences hair care (excludes Aussie kids)",
+   "pre_price_text": "",
+   "price_text": "4.00",
+   "post_price_text": "",
+   "sale_story": "Buy 2 get $4 ExtraBucks Rewards® +$3.00 on 2 Digital mfr coupon",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "19918",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121552,
+   "name": "OGX, Maui or Neutrogena hair care (excludes Neutrogena T/Sal and Hair Restore).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 40% OFF* Also get savings with $4.00 on 2 Digital mfr coupon + Buy 2 get $2 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88132",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121758,
+   "name": "ANY Listerine 1.5L, Total Care, Gum Therapy or Ultraclean 1L.",
+   "pre_price_text": "",
+   "price_text": "8.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $1.00 Digital mfr coupon + Buy 1 get $2 ExtraBucks Rewards®",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "16184",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121823,
+   "name": "Degree deodorant or dry sprays (excludes twin pks. and whole body).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with Buy 2 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "4579",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121992,
+   "name": "Hershey's 1.39-2 oz, Mars Chocolate, Airheads, Nerds, Mentos, Haribo, Necco, Laffy Taffy or Hi-Chew singles 1.32- 2.75 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "19",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122089,
+   "name": "Post 11-16 oz or Grape-Nuts cereal 20.5 oz.",
+   "pre_price_text": "",
+   "price_text": "1.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "51974",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122081,
+   "name": "ALL Häagen-Dazs, Ben & Jerry's or Talenti pints",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "99937",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122111,
+   "name": "Kellogg's Nutri-Grain bars 5-8 ct. or Rice Krispies Treats 6 ct.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 FREE* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "59973",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122166,
+   "name": "ALL McCafé, La Colombe, Green Mountain, Donut Shop, Swiss Miss or seasonal K-Cups 10 ct.",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "77003",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122118,
+   "name": "ALL Quaker ready to eat cereals.",
+   "pre_price_text": "",
+   "price_text": "1.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "84204",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122288,
+   "name": "Tide 73-84 oz.",
+   "pre_price_text": "",
+   "price_text": "14.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $3.00 Digital mfr coupon + Spend $25 get $5 ExtraBucks Rewards®.",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "15498",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122364,
+   "name": "Charmin Ultra 12 mega rolls or Bounty 6 double rolls",
+   "pre_price_text": "",
+   "price_text": "15.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $2.00 Digital mfr coupon + Spend $25 get $5 ExtraBucks Rewards®",
+   "categories": [
+    "Household"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "88137",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122421,
+   "name": "Seasonal, Photo, Toys & Gifts",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122414,
+   "name": "Joyward Halloween home decor (excludes lighting and animation)",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "25% OFF WITH CARD",
+   "categories": [
+    "Events"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25837",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121612,
+   "name": "Colgate Optic White 3 oz, Total value pk. paste, 360°, Total Active Prevention, Gum Health or Sensitive/Gum Expert manual 2 ct. brush",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "$8.00 on 2 Digital mfr coupon + Buy 2 get $5 ExtraBucks Rewards® WITH CARD",
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "22324",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121832,
+   "name": "ANY Gillette or Venus disposable razors",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*, Also get savings with Buy 2 get $6 Extrabucks Rewards®⧫ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "79522",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items. ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121937,
+   "name": "Hershey's Share Packs 7.2-10.8 oz, Harvest Kisses or miniatures 7.6-10.8 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Candy"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18434",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041121982,
+   "name": "Hershey's 12.48-73.54 oz, Mars seasonal large, jumbo, giant bags 19.49-66.4 oz or Halloween candy big bags 20.4-55.7 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "11852",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122065,
+   "name": "Extra Big Deals. Find these offers below.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122072,
+   "name": "Well Market trail mix 6-10 oz.",
+   "pre_price_text": "",
+   "price_text": "3.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "24431",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122157,
+   "name": "ALL Glacéau Smartwater 20 oz-1.5L, Dasani 16-33.8 oz or Core Hydration water 20-30.4 oz bottles",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF*⟡ WITH CARD +CRV",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "13114",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041122182,
+   "name": "ALL Helados Mexico ice cream 12 pk. or Chipwich ice cream sandwich 3 ct",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "87",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122197,
+   "name": "Well Market pistachios 5-8 oz or cashews 8 oz (excludes chocolate covered nuts).",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "99004",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122211,
+   "name": "Keebler, Nutella, Famous Amos or Mother's cookies 4.6-12 oz.",
+   "pre_price_text": "2/",
+   "price_text": "9.00",
+   "post_price_text": "or reg retail ea. WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "79803",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041122321,
+   "name": "Angel Soft 12 mega rolls, Quilted Northern bath tissue 9 mega rolls or Brawny paper towels 6 double rolls.",
+   "pre_price_text": "",
+   "price_text": "12.49",
+   "post_price_text": "",
+   "sale_story": "Also get savings with $2.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "22445",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121174,
+   "name": "ANY CVS Brand hand & body lotion",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $10 get $3 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "23969",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041117092,
+   "name": "Candy",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120432,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041116271,
+   "name": "Ready for the season? Check your expiration dates!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115986,
+   "name": "Do you have a Medicare Advantage Plan?",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117624,
+   "name": "Makeup & Nails",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041115949,
+   "name": "Adult Flonase 144 sprays or Sensimist 120 sprays",
+   "pre_price_text": "",
+   "price_text": "28.49",
+   "post_price_text": "WITH CARD",
+   "sale_story": null,
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "82252",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121452,
+   "name": "Hair Care",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121928,
+   "name": "Hershey's Share Packs 7.2-10.8 oz, Harvest Kisses or miniatures 7.6-10.8 oz.",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Mix & Match BOGO 50% Off WITH CARD",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "18434",
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041117992,
+   "name": "Seasonal, Photo, Toys & Gifts",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041120994,
+   "name": "Neutrogena Collagen Bank, Rapid Tone, Rapid Wrinkle, Triple Age Repair, Hydro Boost facial moisturizers or facial cleansing (excludes wipes).",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Spend $25 get $8 ExtraBucks Rewards®◆ WITH CARD",
+   "categories": [
+    "Health & Medicine"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "25088",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041122260,
+   "name": "back to Find it quick!",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  },
+  {
+   "id": 1041121232,
+   "name": "ALL Aveeno hand & body lotion",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": "Buy 1 get 1 50% OFF* Also get savings with $3.00 Digital mfr coupon WITH CARD",
+   "categories": [
+    "Personal Care"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "339",
+   "disclaimer_text": "*Discount applies to item(s) of equal or lesser value & excludes clearance items."
+  },
+  {
+   "id": 1041115834,
+   "name": "Colgate Optic White Advanced 3.2 oz, Charcoal, Purple, Sensitive 3.8-4.2 oz, Total 3 oz or hello adult toothpaste.",
+   "pre_price_text": "",
+   "price_text": "5.99",
+   "post_price_text": "WITH CARD",
+   "sale_story": "Also get savings with $5.00 on 2 Digital mfr coupon + Buy 2 get $6 ExtraBucks Rewards**",
+   "categories": [
+    "Grocery"
+   ],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": "22325",
+   "disclaimer_text": "ExtraBucksRewards® offer limit of 1 per household per week with card unless otherwise stated."
+  },
+  {
+   "id": 1041121772,
+   "name": "Do you have a Medicare Advantage Plan?",
+   "pre_price_text": "",
+   "price_text": "",
+   "post_price_text": "",
+   "sale_story": null,
+   "categories": [],
+   "valid_from": "2026-09-20",
+   "valid_to": "2026-09-27",
+   "sku": null,
+   "disclaimer_text": null
+  }
+ ]
+}
