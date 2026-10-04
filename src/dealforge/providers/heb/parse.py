@@ -4,11 +4,12 @@ These functions take page HTML and return the typed results in
 :mod:`dealforge.providers.heb.schemas`. They never touch the network, so they
 are unit-testable against saved fixtures.
 
-All CSS selectors live in :data:`SELECTORS`. They are best-effort values
-derived from the 2026-10-04 live recon of heb.com (no login, real Chromium)
-and **must be re-verified against the live site** before trusting a bulk run:
-H-E-B redesigns pages and renames test ids without notice. When a selector
-drifts, update it here -- every parse function reads from this dict.
+All CSS selectors live in :data:`SELECTORS`. They were verified against
+the live heb.com DOM on 2026-10-04 (no login, real Chromium): H-E-B relies on
+``data-component`` / ``data-qe-id`` attributes, with ``data-testid`` used
+sparsely. Re-verify if parsing starts returning ``None`` values after a site
+redesign -- when a selector drifts, update it in :data:`SELECTORS`, since
+every parse function reads from this dict.
 """
 
 from __future__ import annotations
@@ -36,57 +37,73 @@ __all__ = [
 BASE_URL = "https://www.heb.com"
 
 # ---------------------------------------------------------------------------
-# Selectors -- VERIFY LIVE before a bulk run (see module docstring).
-# Each entry is tried in order; the first selector with a hit wins.
+# Selectors -- verified live against heb.com on 2026-10-04 (real Chromium,
+# no login). H-E-B leans on data-component / data-qe-id attributes; data-testid
+# is sparse, so those two are preferred. Hashed CSS-module class names
+# (e.g. __HJiPb) are listed only as last-resort fallbacks -- they can rotate
+# on any deploy. Each entry is tried in order; the first selector with a hit
+# wins. Re-verify if parsing starts returning Nones after a site redesign.
 # ---------------------------------------------------------------------------
 SELECTORS: dict[str, tuple[str, ...]] = {
     # Search results page -----------------------------------------------
     "search_card": (
-        '[data-testid="product-card"]',
-        "article.product-card",
-        "div.search-result",
+        '[data-component="product-card"]',
+        '[data-qe-id="productCard"]',
+        '[data-testid="productCardContainer"]',
     ),
     "search_name": (
+        '[data-qe-id="productTitle"]',
         '[data-testid="product-name"]',
         "h2.product-name",
         "a.product-link",
     ),
     "search_link": (
+        'a[href^="/product-detail/"]',
         'a[data-testid="product-link"]',
         "a.product-link",
     ),
     "search_price": (
+        '[data-component="product-price-sale-price"]',
         '[data-testid="product-price"]',
         "span.price",
         "div.price",
     ),
     "search_unit_price": (
+        '[data-component="product-price-price-per-unit"]',
         '[data-testid="unit-price"]',
         "span.unit-price",
     ),
     "search_location": (
+        'p[data-testid="product-location"]',
+        'button[data-testid="product-card-map-button"]',
         '[data-testid="store-location"]',
         "button.store-location",
         "span.aisle-info",
     ),
     "search_snap": (
+        "p.SnapEbtLabel_snapEbtLabel__054ID",
         '[data-testid="snap-eligible"]',
         "span.snap-badge",
     ),
     # Product detail page -----------------------------------------------
     "detail_name": (
+        "h1.ProductDetailTitle_titleText__n6zkq",
         '[data-testid="product-title"]',
         "h1.product-title",
     ),
     "detail_price": (
+        '[data-component="product-price-sale-price"]',
         '[data-testid="product-price"]',
         "span.price",
     ),
     "detail_unit_price": (
+        '[data-component="product-price-price-per-unit"]',
         '[data-testid="unit-price"]',
         "span.unit-price",
     ),
     "detail_location": (
+        'button[data-qe-id="nearbyStoreMapButton"]',
+        "button.ProductDetailStoreMapButton_button__TcWVB",
         '[data-testid="store-location"]',
         "button.store-location",
     ),
@@ -96,10 +113,12 @@ SELECTORS: dict[str, tuple[str, ...]] = {
         "div.promo-badge",
     ),
     "detail_savings_line": (
+        'ul[data-testid="product-detail-promos-container"] li',
         '[data-testid="ways-to-save"] li',
         "div.more-ways-to-save li",
     ),
     "detail_highlight": (
+        'div[data-qe-id="productHighlights"] button',
         '[data-testid="highlight"]',
         "ul.highlights li",
     ),
@@ -109,18 +128,24 @@ SELECTORS: dict[str, tuple[str, ...]] = {
     ),
     # Coupons page --------------------------------------------------------
     "coupon_card": (
+        'div[data-testid="coupon-card-body"]',
+        '[data-qe-id="couponCard"]',
+        'div[data-testid="coupon-grid-column"]',
         '[data-testid="coupon-card"]',
         "article.coupon",
     ),
     "coupon_headline": (
+        'p[data-qe-id="couponDescription"]',
         '[data-testid="coupon-headline"]',
         "h3.coupon-title",
     ),
     "coupon_expiry": (
+        '[data-qe-id="couponExpiration"]',
         '[data-testid="coupon-expiry"]',
         "span.expiry",
     ),
     "coupon_limit": (
+        '[data-qe-id="couponRedemptionLimit"]',
         '[data-testid="coupon-limit"]',
         "span.coupon-limit",
     ),
@@ -133,44 +158,59 @@ SELECTORS: dict[str, tuple[str, ...]] = {
         "span.coupon-department",
     ),
     "coupon_next_page": (
+        'a[data-qe-id="paginationNext"]',
+        'nav[aria-label="Pagination Navigation"] a[data-qe-id="paginationListNum"]',
         '[data-testid="pagination-next"]',
         "a.pagination-next",
         "button.load-more",
     ),
     # Weekly ad page ------------------------------------------------------
     "ad_card": (
+        '[data-component="product-card"]',
+        '[data-qe-id="productCard"]',
         '[data-testid="weekly-ad-item"]',
         "article.ad-item",
     ),
     "ad_name": (
+        '[data-qe-id="productTitle"]',
         '[data-testid="ad-item-name"]',
         "h3.ad-item-name",
     ),
     "ad_link": (
+        'a[href^="/product-detail/"]',
         'a[data-testid="ad-item-link"]',
         "a.ad-item-link",
     ),
     "ad_sale_price": (
+        '[data-component="product-price-sale-price"]',
         '[data-testid="ad-sale-price"]',
         "span.sale-price",
     ),
     "ad_regular_price": (
+        'p[data-testid="strike-through-price"]',
+        '[data-component="product-price-strike-through-price"]',
         '[data-testid="ad-regular-price"]',
         "span.regular-price",
     ),
     "ad_unit_price": (
+        '[data-component="product-price-price-per-unit"]',
         '[data-testid="ad-unit-price"]',
         "span.unit-price",
     ),
     "ad_location": (
+        'p[data-testid="product-location"]',
+        'button[data-testid="product-card-map-button"]',
         '[data-testid="ad-location"]',
         "span.aisle-info",
     ),
     "ad_coupon_tag": (
+        '[data-qe-id="couponLabel"]',
         '[data-testid="ad-coupon-tag"]',
         "span.coupon-tag",
     ),
     "ad_deal_text": (
+        '[data-qe-id="snipe"]',
+        'p[data-qe-id="couponDescription"]',
         '[data-testid="ad-deal-text"]',
         "div.deal-mechanics",
     ),
