@@ -60,6 +60,55 @@ required, `min_score=0.5`, best row first, score and matched term kept on
 each `DealMatch` for audit. Unmatched items map to an empty tuple -- most
 of a weekly shop is not on deal, and saying so is the honest answer.
 
+**Match strictness gates** (`deals.veto_reason`). Overlap alone
+over-matches: it counts shared words but is blind to the words that make
+two products different. After scoring, four deterministic gates decide
+*eligibility* (the score decides *candidacy*); the first failing gate
+vetoes the row with a human-readable reason:
+
+1. **Quantity-gated rows must name the product exactly.** A "buy 2" /
+   "$1 off 2" / "2 for $5" row only attaches at overlap score 1.0 (every
+   product word appears in the row). The optimizer then values it per unit
+   with a "buy 2" qualifier note.
+2. **Conflicting brands veto.** A curated brand lexicon (`_BRANDS`); a row
+   naming one brand never attaches to a product carrying a different
+   brand. A branded row *may* still match an unbranded product.
+3. **The row's product noun must appear in the product.** The head token
+   of the matched row fragment ("yogurt", "fajita", "sausage") must be one
+   of the product's tokens -- otherwise the shared words are modifiers,
+   not the product.
+4. **Conflicting line qualifiers veto** (`_CONFLICTS`): "round top" vs
+   "grain & glory" vs "split top" (different bread lines),
+   "seasoned" vs "natural", "white" vs "whole wheat".
+
+Deliberate non-rules: pack size is *not* distinguishing ("12 ct" deal vs
+"18 ct" product of the same line matches -- sizes are stripped by
+normalization); a missing brand is not a conflict.
+
+**Test strategy.** Three layers, so the next loosening fails fast:
+
+- *Regression*: the three live-run false positives (Greek-yogurt coupon
+  on milk, fajita ad on thin-sliced chicken, Round Top ad on Organics
+  bread) are encoded as must-not-match cases.
+- *Adversarial matrix* (`tests/test_heb_deal_matrix.py`): ~26
+  (deal, product, expect) pairs across the tricky dimensions -- same head
+  noun but different product, brand mismatch, qualifier conflicts,
+  quantity qualifiers, size variations -- plus positive controls (exact
+  matches, same-line different-size) so stricter rules can't silently
+  reject good deals. Mechanism-pinned pairs also assert the exact veto
+  reason.
+- *Property checks* (`tests/test_heb_deal_properties.py`): invariants over
+  a checked-in snapshot of the Oct 4, 2026 Heights-store scrape
+  (`tests/fixtures/heb_live_*.json`) -- no emitted match violates any
+  gate, brand conflicts never match, every row's head noun is in the
+  product, and the pipeline is deterministic.
+
+**To extend when a new false positive appears:** add the pair to the
+matrix with `expect_match=False` and the veto reason you want; if no
+existing gate fires, add the gate first (a brand in `_BRANDS`, a pair in
+`_CONFLICTS`, a word in `_TRAILING_MODIFIERS`, a pattern in
+`_QUANTITY_RE`), then pin it in the matrix.
+
 **Optimization.** Per item: (1) sale layer -- best shelf offer wins, and a
 weekly-ad `SALE_PRICE` only applies when it *lowers* the resolved price
 (live heb.com prices usually already reflect the ad; re-applying it would

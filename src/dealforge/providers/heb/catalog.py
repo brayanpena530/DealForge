@@ -52,7 +52,7 @@ _FRACTION = re.compile(r"\b\d+/\d+\b")
 # Marketing filler that never helps identify a product.
 _FILLER = re.compile(
     r"\b(?:assorted|varieties|variety|select|selected|value|fresh|jumbo|new|"
-    r"any|all|or\s+more|item|items|pack|size|family|each|ea)\b",
+    r"any|all|or\s+more|item|items|pack|size|family|each|ea|avg|average)\b",
     re.I,
 )
 
