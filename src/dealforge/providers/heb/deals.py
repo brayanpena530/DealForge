@@ -7,7 +7,12 @@ promotion alone is not enough to match on. A weekly-ad sale promotion's
 ``raw`` text is just ``"On Sale 2.99"``; the product name lives on the row,
 not the rule. So collection keeps the named rows (:class:`DealOffer`), and
 matching scores row names against the item's resolved product name with the
-same deterministic token-overlap matcher the catalog uses for flyer rows.
+same deterministic token-overlap matcher the catalog uses for flyer rows --
+then applies four strictness gates (see :func:`veto_reason`) so a row only
+attaches when the product plausibly *is* the row's product: conflicting
+brands veto, the row's product noun must appear in the product, conflicting
+line qualifiers veto, and quantity-gated rows ("buy 2") must name the
+product exactly.
 
 Two Phase 1 gaps are repaired here, deterministically:
 
@@ -25,6 +30,7 @@ to clip. Read-only, no login, no cart.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Iterable, Sequence
 
@@ -42,6 +48,7 @@ __all__ = [
     "DealOffer",
     "collect_deals",
     "match_deals_to_items",
+    "veto_reason",
 ]
 
 #: Where each offer row came from. Kept as a plain string so fixtures and
@@ -194,6 +201,217 @@ def _match_target(item: LocatedItem) -> str:
     return item.query
 
 
+# ---------------------------------------------------------------------------
+# Match strictness gates.
+#
+# Token overlap alone over-matches: it counts shared words but is blind to
+# the words that make two products different. A coupon for "Whole Milk
+# Plain Greek Yogurt" shares every word of "H-E-B Whole Milk" yet names a
+# different product; an ad for "Seasoned Chicken Breast for Fajitas" shares
+# "chicken breast" with "Natural Boneless Chicken Breast, Thin Sliced" yet
+# is a different product. The four gates below veto such rows
+# deterministically (no LLM), each with a human-readable reason. They run
+# after the catalog's overlap score, so the score still decides *candidacy*
+# and the gates decide *eligibility*.
+#
+# When a new false positive appears, the fix is one of: a new entry in
+# _BRANDS (a brand the row names), a new pair in _CONFLICTS (two qualifier
+# groups that never describe the same product), a new word in
+# _TRAILING_MODIFIERS (a flavor/heat word that dangles at the end of a
+# name), or a new pattern in _QUANTITY_RE (a "buy N" phrasing). Add the
+# entry, then add the (offer, product, expect) pair to the adversarial
+# matrix in tests/test_heb_deal_matrix.py.
+# ---------------------------------------------------------------------------
+
+#: Brand token-groups, singularized the way catalog.tokenize folds them
+#: ("Sunups" -> "sunup", "Pete and Gerry's" -> "pete gerry"). A row vetoes
+#: only on *conflicting* brands: a branded row may still match an unbranded
+#: product, but never a product carrying a different brand.
+_BRANDS: tuple[tuple[str, ...], ...] = (
+    ("h-e-b",),
+    ("hill", "country", "fare"),
+    ("central", "market"),
+    ("higher", "harvest"),
+    ("mi", "tienda"),
+    ("pete", "gerry"),
+    ("sunup",),
+    ("dole",),
+    ("bush",),
+    ("blue", "bell"),
+    ("nature",),
+    ("simply",),
+    ("fairlife",),
+    ("silk",),
+    ("oatly",),
+    ("planet", "oat"),
+    ("tyson",),
+    ("sabra",),
+    ("frito", "lay"),
+    ("thomas",),
+    ("mateo",),
+    ("herdez",),
+    ("johnsonville",),
+    ("old", "el", "paso"),
+    ("la", "banderita"),
+    ("guerrero",),
+    ("siete",),
+    ("bimbo",),
+    ("marinela",),
+    ("kerrygold",),
+    ("schar",),
+    ("bonduelle",),
+    ("luby",),
+    ("jimmy", "dean"),
+    ("delimex",),
+    ("cacique",),
+    ("core", "power"),
+    ("muscle", "milk"),
+    ("naked",),
+    ("pom",),
+    ("welch",),
+    ("capri", "sun"),
+    ("vive",),
+    ("trip",),
+    ("good", "sense"),
+    ("camellia",),
+    ("westbrae",),
+    ("green", "valley"),
+    ("wolf",),
+    ("goya",),
+    ("ducal",),
+    ("stella",),
+    ("haleon",),
+    ("dove",),
+    ("vaseline",),
+    ("degree",),
+    ("il", "critter"),
+    ("vitafusion",),
+    ("romansana",),
+    ("chicken", "sea"),
+)
+
+#: Mutually exclusive qualifier groups. Each pair is (group_a, group_b);
+#: when one side of the match carries all of group_a and the other side
+#: carries all of group_b (either direction), the row cannot be the
+#: product. "Round Top" and "Grain & Glory" are different bread lines;
+#: "seasoned" and "natural" never describe the same chicken.
+_CONFLICTS: tuple[tuple[tuple[str, ...], tuple[str, ...]], ...] = (
+    (("round", "top"), ("grain", "glory")),
+    (("round", "top"), ("split", "top")),
+    (("grain", "glory"), ("split", "top")),
+    (("seasoned",), ("natural",)),
+    (("white",), ("whole", "wheat")),
+)
+
+#: Flavor/heat words that dangle at the end of a name without naming the
+#: product ("Italian Sausage - Mild" is a sausage). Dropped when finding
+#: the head token so the product noun is compared, not the modifier.
+_TRAILING_MODIFIERS = frozenset({"mild", "medium", "hot", "spicy"})
+
+#: "Buy 2", "$1 off 2", "2 for $5", "when you buy 2". A quantity-gated row
+#: is a commitment device: it may only attach when it names the product at
+#: least as specifically as the product names itself (overlap score 1.0).
+#: The optimizer then values it per unit with a "buy N" qualifier note.
+_QUANTITY_RE = re.compile(
+    r"\bbuy\s+(one|two|three|four|five|\d+)\b"
+    r"|\boff\s+(one|two|three|four|five|\d+)\b"
+    r"|\b(one|two|three|four|five|\d+)\s+for\s*\$"
+    r"|\bwhen\s+you\s+buy\s+(one|two|three|\d+)\b",
+    re.I,
+)
+_WORDNUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
+
+#: Tokens that are never the product noun: counts, prices, "4-7".
+_NUMBERISH = re.compile(r"^[\d$¢%\-/.,]+$")
+
+
+def _brands_in(text: str) -> list[tuple[str, ...]]:
+    """Brand token-groups named by a row or product name."""
+    tokens = catalog.tokenize(text)
+    return [b for b in _BRANDS if set(b) <= tokens]
+
+
+def _head_token(text: str) -> str | None:
+    """The product noun: last substantive token of a name.
+
+    Sizes, counts, filler and trailing flavor modifiers are skipped, so
+    "Italian Sausage - Mild" yields "sausage" and "Whole Milk Plain Greek
+    Yogurt, 32 oz" yields "yogurt".
+    """
+    toks = [
+        t for t in catalog._ordered_tokens(text) if not _NUMBERISH.match(t)
+    ]
+    while toks and toks[-1] in _TRAILING_MODIFIERS:
+        toks.pop()
+    return toks[-1] if toks else None
+
+
+def _quantity_required(text: str) -> int | None:
+    """Units the row requires buying ("buy 2", "$1 off 2", "2 for $5")."""
+    m = _QUANTITY_RE.search(text)
+    if not m:
+        return None
+    word = next(g for g in m.groups() if g is not None)
+    return _WORDNUM.get(word.lower(), int(word) if word.isdigit() else 1)
+
+
+def veto_reason(
+    term: str,
+    *,
+    offer_name: str,
+    product_name: str,
+    score: float,
+) -> str | None:
+    """Why this deal row cannot apply to this product, or None if it may.
+
+    ``term`` is the row fragment that scored best (what the head gate
+    checks); ``offer_name`` is the whole row (what brand, conflict and
+    quantity gates check); ``product_name`` is the resolved product name;
+    ``score`` is the catalog overlap score. The first failing gate wins and
+    its reason is returned for audit.
+    """
+    offer_tokens = catalog.tokenize(offer_name)
+    product_tokens = catalog.tokenize(product_name)
+
+    # 1. Quantity-gated rows must name the product exactly. A "buy 2" row
+    #    that only shares some words is reaching for a neighboring product.
+    qty = _quantity_required(offer_name)
+    if qty is not None and qty >= 2 and score < 1.0:
+        return (
+            f"quantity-gated (buy {qty}) without full product coverage "
+            f"(score {score:.2f})"
+        )
+
+    # 2. Conflicting brands veto. A branded row may match an unbranded
+    #    product, but never a product carrying a different brand.
+    offer_brands = set(_brands_in(offer_name))
+    product_brands = set(_brands_in(product_name))
+    if offer_brands and product_brands and offer_brands.isdisjoint(product_brands):
+        ob = "/".join(" ".join(b) for b in sorted(offer_brands))
+        pb = "/".join(" ".join(b) for b in sorted(product_brands))
+        return f"brand conflict: offer names {ob}, product names {pb}"
+
+    # 3. The row's product noun must appear in the product. The row is
+    #    *about* its head noun ("yogurt", "fajita", "sausage"); if the
+    #    product does not contain it, the shared words are modifiers.
+    head = _head_token(term)
+    if head is not None and head not in product_tokens:
+        return f"offer head {head!r} not in product"
+
+    # 4. Conflicting line qualifiers veto, either direction.
+    for group_a, group_b in _CONFLICTS:
+        a, b = set(group_a), set(group_b)
+        if (a <= offer_tokens and b <= product_tokens) or (
+            b <= offer_tokens and a <= product_tokens
+        ):
+            return (
+                f"conflicting qualifiers: {' '.join(group_a)} "
+                f"vs {' '.join(group_b)}"
+            )
+
+    return None
+
+
 def match_deals_to_items(
     items: Iterable[LocatedItem],
     offers: Sequence[DealOffer],
@@ -226,6 +444,16 @@ def match_deals_to_items(
         if target:
             for m in catalog.match_query(target, flyer, min_score=min_score):
                 offer = by_flyer[id(m.offer)]
+                # The score decides candidacy; the strictness gates decide
+                # eligibility. A vetoed row is dropped, not scored lower.
+                veto = veto_reason(
+                    m.term,
+                    offer_name=offer.name,
+                    product_name=target,
+                    score=m.score,
+                )
+                if veto is not None:
+                    continue
                 for promo in offer.promotions:
                     matches.append(
                         DealMatch(
