@@ -3,7 +3,11 @@ name = "dealforge"
 version = "0.1.0"
 description = "An agent-friendly optimization engine for coupons, promotions, and loyalty rewards."
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.12",
+    # Browser-driven H-E-B adapter only; needs `playwright install chromium`.
+    "playwright>=1.40",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
