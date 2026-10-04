@@ -26,7 +26,7 @@ from typing import Any, Iterable
 
 from dealforge.models import Promotion, PromoKind, PromoSource
 
-__all__ = ["parse_item", "parse_text"]
+__all__ = ["parse_coupon_headline", "parse_item", "parse_text"]
 
 _FIELDS = ("pre_price_text", "price_text", "post_price_text", "sale_story")
 
@@ -74,6 +74,33 @@ _PRICE_TEXT = re.compile(r"^\s*(\d+(?:\.\d{1,2})?)\s*(lb|ea|each)?\b", re.I)
 
 # Text that reads as promotional even when no rule matched.
 _PROMO_ISH = re.compile(r"save|free|buy|coupon|off\b|deal", re.I)
+
+# --------------------------------------------------------------------------
+# digital-coupon headline grammar
+# --------------------------------------------------------------------------
+# Unlike flyer copy, coupon headlines never say SAVE: "$8.00 OFF ANY TWO (2)
+# L'OREAL ..." / "$1 off 2 H-E-B Tortilla Chips ...". The quantity trails the
+# amount instead of living in a "WHEN YOU BUY N" clause.
+_COUPON_FLAT = re.compile(rf"{_MONEY}\s*off\b(?!\s*your\s+basket)", re.I)
+_COUPON_QTY_TWO = re.compile(r"any\s+two\s*\(\s*2\s*\)", re.I)
+_COUPON_QTY_N = re.compile(r"\boff\s+(\d+)\b", re.I)
+
+# Weekly-ad deal mechanics: "Buy 2, get 1 free".
+_BOGO_BUY_GET = re.compile(r"\bbuy\s+(\d+)\s*,\s*get\s+(\d+)\s+free\b", re.I)
+
+# The free item is a different product the ad never names:
+# "Combo Loco -- Buy this, get that free" / "FREE! with the purchase of ...".
+_BUNDLE_THIS_THAT = re.compile(r"\bbuy\s+this\s*,\s*get\s+that\s+free\b", re.I)
+_BUNDLE_FREE_WITH = re.compile(r"\bfree\s*!\s*with\s+the\s+purchase\s+of\b", re.I)
+
+
+def _coupon_quantity(blob: str) -> int | None:
+    """Quantity from coupon-headline phrasing: 'ANY TWO (2)' or 'off 2'."""
+    if _COUPON_QTY_TWO.search(blob):
+        return 2
+    if m := _COUPON_QTY_N.search(blob):
+        return int(m.group(1))
+    return None
 
 
 def _money(raw: str | None) -> Decimal | None:
@@ -188,6 +215,17 @@ def parse_text(blob: str, *, unit_price: Decimal | None = None) -> list[Promotio
             )
         ]
 
+    # "Buy 2, get 1 free" -- weekly-ad deal mechanics.
+    if m := _BOGO_BUY_GET.search(blob):
+        return [
+            build(
+                PromoKind.BOGO,
+                min_quantity=int(m.group(1)),
+                get_quantity=int(m.group(2)),
+                discount_percent=Decimal(100),
+            )
+        ]
+
     if m := _BUNDLE.search(blob):
         free_item = _free_item_text(blob)
         return [
@@ -200,6 +238,20 @@ def parse_text(blob: str, *, unit_price: Decimal | None = None) -> list[Promotio
                 max_value=max_value,
                 confidence=0.8 if free_item else 0.5,
                 caveats=() if free_item else ("free item not identifiable from ad copy",),
+            )
+        ]
+
+    # A different item is free but the ad never names it: Combo Loco
+    # "Buy this, get that free", or "FREE! with the purchase of ...".
+    if _BUNDLE_THIS_THAT.search(blob) or _BUNDLE_FREE_WITH.search(blob):
+        return [
+            build(
+                PromoKind.BUNDLE,
+                min_quantity=min_qty,
+                min_spend=min_spend,
+                get_quantity=1,
+                confidence=0.5,
+                caveats=("free item not identifiable from ad copy",),
             )
         ]
 
@@ -244,20 +296,32 @@ def parse_text(blob: str, *, unit_price: Decimal | None = None) -> list[Promotio
     #    engine cannot subtract the discount a second time.
     if m := _FLAT.search(blob):
         amount = _money(m.group(1))
+        qty = min_qty or _coupon_quantity(blob)
         if unit_price is not None:
             return [
                 build(
                     PromoKind.SALE_PRICE,
                     unit_price=unit_price,
                     discount_amount=amount,
-                    min_quantity=min_qty,
+                    min_quantity=qty,
                 )
             ]
         return [
             build(
                 PromoKind.SAVE_FLAT,
                 discount_amount=amount,
-                min_quantity=min_qty,
+                min_quantity=qty,
+                min_spend=min_spend,
+            )
+        ]
+
+    # 5b. Coupon-headline flat: "$8.00 OFF ANY TWO (2) ..." -- no SAVE verb.
+    if m := _COUPON_FLAT.search(blob):
+        return [
+            build(
+                PromoKind.SAVE_FLAT,
+                discount_amount=_money(m.group(1)),
+                min_quantity=_coupon_quantity(blob),
                 min_spend=min_spend,
             )
         ]
@@ -276,6 +340,22 @@ def parse_text(blob: str, *, unit_price: Decimal | None = None) -> list[Promotio
         ]
 
     return []
+
+
+def parse_coupon_headline(headline: str) -> list[Promotion]:
+    """Parse one digital-coupon headline into Promotion rules.
+
+    Digital coupons always require clipping and are H-E-B-issued, unlike flyer
+    rows where clipping is inferred from "yellow coupon" text -- so the parsed
+    rules are forced to ``requires_clip=True`` and ``source=STORE_COUPON``.
+    """
+    import dataclasses
+
+    promos = parse_text(headline)
+    return [
+        dataclasses.replace(p, requires_clip=True, source=PromoSource.STORE_COUPON)
+        for p in promos
+    ]
 
 
 def parse_item(item: dict[str, Any]) -> list[Promotion]:
