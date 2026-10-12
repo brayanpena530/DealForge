@@ -1,6 +1,6 @@
 """Tests for resolving a grocery list against the H-E-B weekly ad.
 
-Every flyer string here is real ad copy from the 77008 flyer for the week of
+Every flyer string here is real ad copy from the 00000 flyer for the week of
 2026-09-16 (`fixtures/heb_flyer_8130390.json`). The grocery lists are ordinary
 ones -- the point of most of these tests is what a shopper actually types.
 """

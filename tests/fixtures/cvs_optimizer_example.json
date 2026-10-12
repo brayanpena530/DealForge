@@ -1,0 +1,132 @@
+{
+  "lines": [
+    {
+      "line_id": "paste",
+      "quantity": 2,
+      "product": {
+        "product_id": "123",
+        "sku_id": "456",
+        "url": "https://www.cvs.com/shop/example-prodid-123?skuId=456",
+        "selected_sku_verified": true,
+        "availability": "in_stock",
+        "price": {
+          "amount": "3.00",
+          "currency": "USD",
+          "channel": "online",
+          "source": "cvs_rendered_page",
+          "source_url": "https://www.cvs.com/shop/example-prodid-123?skuId=456",
+          "observed_at": "2026-10-10T12:00:00-05:00"
+        },
+        "store_context": {
+          "store_id": "10001"
+        }
+      },
+      "price_evidence": [
+        {
+          "product_id": "123",
+          "sku_id": "456",
+          "amount": "3.00",
+          "currency": "USD",
+          "channel": "in_store",
+          "store_id": "10001",
+          "source": "shelf_label",
+          "source_ref": "synthetic shelf observation",
+          "observed_at": "2026-10-10T12:00:00-05:00",
+          "verified_by_caller": true,
+          "sale_status": "regular"
+        }
+      ]
+    }
+  ],
+  "account_sync": {
+    "status": "partial",
+    "account_identity_verified": true,
+    "account_binding": {
+      "status": "matched"
+    },
+    "offer_rules": [],
+    "snapshot": {
+      "schema_version": 1,
+      "account_ref": "test-account",
+      "observed_at": "2026-10-10T12:00:00-05:00",
+      "source": "fixture",
+      "status": "partial",
+      "rewards_complete": true,
+      "coupons_complete": true,
+      "rewards": [
+        {
+          "reward_id": "example-expiring-bonus",
+          "kind": "membership_bonus",
+          "amount": "10.00",
+          "expires_on": "2026-10-11",
+          "state": "on_card",
+          "channel": "in_store",
+          "partial_redemption": false,
+          "raw_terms": "Synthetic qualifying-items certificate terms"
+        },
+        {
+          "reward_id": "example-fresh-eb",
+          "kind": "extrabucks",
+          "amount": "5.00",
+          "expires_on": "2026-11-30",
+          "state": "on_card",
+          "channel": "in_store",
+          "partial_redemption": false,
+          "raw_terms": "Synthetic qualifying-items certificate terms"
+        }
+      ],
+      "coupons": []
+    }
+  },
+  "account_ref": "test-account",
+  "confirmations": [
+    {
+      "id": "example-expiring-bonus",
+      "source_fingerprint": "3c15732bb52aca39afd2fbc854636037e1ca3628401f419d411c23a4898cca07",
+      "observed_at": "2026-10-10T12:00:00-05:00",
+      "source_ref": "synthetic observed complete terms",
+      "unit_ids": [
+        "paste:1",
+        "paste:2"
+      ],
+      "terms_verified": true,
+      "product_eligibility_verified": true,
+      "limits_verified": true,
+      "stacking_verified": true,
+      "minimum_quantity": 1,
+      "minimum_spend": "0.00",
+      "qualification_basis": "pre_coupon",
+      "remaining_uses": 1
+    },
+    {
+      "id": "example-fresh-eb",
+      "source_fingerprint": "8297bff9922c5bb6363b4fe2f7eff93d2a1898fddf752f04366d776bdd3c51a8",
+      "observed_at": "2026-10-10T12:00:00-05:00",
+      "source_ref": "synthetic observed complete terms",
+      "unit_ids": [
+        "paste:1",
+        "paste:2"
+      ],
+      "terms_verified": true,
+      "product_eligibility_verified": true,
+      "limits_verified": true,
+      "stacking_verified": true,
+      "minimum_quantity": 1,
+      "minimum_spend": "0.00",
+      "qualification_basis": "pre_coupon",
+      "remaining_uses": 1
+    }
+  ],
+  "channel": "in_store",
+  "store_id": "10001",
+  "as_of": "2026-10-10T12:00:00-05:00",
+  "allow_fixture": true,
+  "extra_care_ready": true,
+  "profile": {
+    "return_days": [
+      14,
+      28
+    ],
+    "future_eligible_spend": "20.00"
+  }
+}

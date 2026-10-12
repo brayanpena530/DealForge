@@ -25,7 +25,7 @@ def _plan(**kwargs):
     queries = [e["query"] for e in json.loads((FIXTURES / "heb_route_items.json").read_text())]
     items = resolve_list(queries, client)
     assignment = match_deals_to_items(items, collect_deals(client))
-    return optimize(assignment, store_number="737", **kwargs)
+    return optimize(assignment, store_number="101", **kwargs)
 
 
 def test_full_plan_totals_on_fixtures():
@@ -87,6 +87,6 @@ def test_full_plan_debit_rebate():
 def test_cli_runs_on_fixtures(capsys):
     assert heb_plan.main([]) == 0
     out = capsys.readouterr().out
-    assert "Shopping plan (store #737)" in out
+    assert "Shopping plan (store #101)" in out
     assert "You save:  $9.24" in out
     assert "Coupons to clip (4):" in out

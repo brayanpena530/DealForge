@@ -26,7 +26,7 @@ playwright install chromium   # one-time browser download
 from dealforge.providers.heb.browser import HEBBrowserClient
 
 with HEBBrowserClient() as heb:          # persistent profile, headless
-    heb.set_store("77008")               # The Heights H-E-B #737 (default)
+    heb.set_store("00000")               # fictional example; live preferences are local
     for p in heb.search("eggs", limit=10):
         print(p.name, p.price, p.location)
     detail = heb.get_product_by_url(p.url)
@@ -38,7 +38,7 @@ Demo (fixture mode, no browser needed):
 
 ```bash
 python -m dealforge.heb_demo eggs
-python -m dealforge.heb_demo "chicken breast" --live --zip 77008
+python -m dealforge.heb_demo "chicken breast" --live --zip 00000
 ```
 
 Every result has `to_promotion()` to normalize into the shared `Promotion`

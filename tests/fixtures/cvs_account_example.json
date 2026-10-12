@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "account_ref": "cvs-example",
+  "observed_at": "2026-10-09T10:00:00-05:00",
+  "source": "fixture",
+  "status": "ready",
+  "rewards_complete": true,
+  "coupons_complete": true,
+  "rewards": [
+    {
+      "reward_id": "example-eb-5",
+      "kind": "extrabucks",
+      "amount": "5.00",
+      "expires_on": "2026-10-16",
+      "state": "on_card",
+      "channel": "in_store",
+      "partial_redemption": false,
+      "raw_terms": "SYNTHETIC EXAMPLE: $5 reward; verify actual reward terms before use."
+    }
+  ],
+  "coupons": [
+    {
+      "coupon_id": "example-coupon",
+      "headline": "$2 off eligible toothpaste",
+      "issuer": "store_coupon",
+      "expires_on": "2026-10-15",
+      "state": "available",
+      "channel": "in_store",
+      "raw_terms": "SYNTHETIC EXAMPLE: qualifying toothpaste only, one use; requires sending to card."
+    }
+  ]
+}

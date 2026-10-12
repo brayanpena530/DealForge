@@ -7,7 +7,7 @@ parsed, and the list is sorted into a sensible visiting order.
 ## Where locations come from
 
 HEB displays an in-store location on search result cards and product pages,
-verbatim, e.g. `"In Dairy on the Left Wall, A25 at The Heights H-E-B"`.
+verbatim, e.g. `"In Dairy on the Left Wall, A25 at Example H-E-B"`.
 `HEBBrowserClient.search()` captures this string; `shopping.resolve_list()`
 falls back to the product page only when the card has none. No login is
 needed for any of this.
@@ -32,7 +32,7 @@ say so honestly.
 ## Walk order (`route.py`)
 
 `STORE_WALK_ORDERS` maps store number -> ordered zone list. The default
-(and the entry for `737`, The Heights) models a perimeter-first walk:
+(and the entry for `101`, Example Store) models a perimeter-first walk:
 
 Produce -> Seafood -> Deli -> Bakery -> Meat Market -> Dairy -> Frozen ->
 Market -> plain grocery aisles -> Checkout
@@ -46,7 +46,7 @@ their original input order.
 The walk order is a heuristic, not surveyed truth. To tune for a store:
 
 1. Open the store's page on heb.com and find the "View store layout" link
-   (a per-store guide PDF, e.g. `guide-houston-737.pdf`).
+   (a per-store guide PDF; use the actual link for the locally selected store).
 2. Read the department placement off the floor plan.
 3. Add an entry to `STORE_WALK_ORDERS` keyed by the store number.
 

@@ -149,6 +149,18 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
+# Personal shopping inputs, receipts, sessions and preferences stay local.
+preferences.local.json
+preferences.json
+identity.key
+binding-*.json
+*.private.json
+*.network-response
+auth.json
+storage-state*.json
+playwright-profile/
 .envrc
 .venv
 env/

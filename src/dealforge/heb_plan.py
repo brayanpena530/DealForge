@@ -176,8 +176,8 @@ def main(argv: list[str] | None = None) -> int:
         description="Build an optimized H-E-B shopping plan."
     )
     parser.add_argument("items", nargs="*", help="shopping list queries")
-    parser.add_argument("--zip", default="77008", help="store ZIP (default: 77008)")
-    parser.add_argument("--store", default="737", help="store number (default: 737)")
+    parser.add_argument("--zip", help="store ZIP; defaults to private local preferences")
+    parser.add_argument("--store", help="store number; defaults to private local preferences")
     parser.add_argument(
         "--live",
         action="store_true",
@@ -189,6 +189,11 @@ def main(argv: list[str] | None = None) -> int:
         help="apply the 5% H-E-B debit-card rebate on private-label items",
     )
     args = parser.parse_args(argv)
+    from dealforge.shopper_settings import shopping_zip, shopping_store
+    if hasattr(args, "store"):
+        args.store = shopping_store("heb", args.store) or "default"
+    if args.live:
+        args.zip = shopping_zip("heb", args.zip)
 
     from dealforge.providers.heb.deals import collect_deals, match_deals_to_items
     from dealforge.providers.heb.optimizer import optimize

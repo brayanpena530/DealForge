@@ -1,7 +1,7 @@
 """Tests for the H-E-B sale_story parser.
 
 Every string in this file is real ad copy, captured from the H-E-B weekly ad for
-77008 (Houston) for the week of 2026-09-16. The full 55-item flyer is in
+00000 (Houston) for the week of 2026-09-16. The full 55-item flyer is in
 `fixtures/heb_flyer_8130390.json`.
 """
 

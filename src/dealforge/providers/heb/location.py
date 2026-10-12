@@ -3,7 +3,7 @@
 H-E-B shows a location on search results and product pages, verbatim, e.g.::
 
     In Dairy on the Left Wall, A24
-    In Dairy on the Left Wall, A25 at The Heights H-E-B
+    In Dairy on the Left Wall, A25 at Example H-E-B
     Aisle 10
     Aisle 11, A12
     In Produce, A3
@@ -51,7 +51,7 @@ _NEAR_CHECKOUT = re.compile(r"\bnear\s+checkout\s*(\d{0,3})\b", re.I)
 #: "In Dairy", "In Meat Market on the Right Wall", ...
 _ZONE = re.compile(r"^\s*in\s+([a-z][a-z&' ]*?)(?:\s+on the|\s*,|\s*$)", re.I)
 
-#: Trailing " at The Heights H-E-B" (any store name ending in H-E-B).
+#: Trailing " at Example H-E-B" (any store name ending in H-E-B).
 _STORE_SUFFIX = re.compile(r"\s+at\s+[\w\s.'-]*H-?E-?B\.?\s*$", re.I)
 
 #: Lowercased zone fragment -> canonical zone name.
@@ -119,7 +119,7 @@ def parse_location(raw: str | None) -> StoreLocation | None:
     if not text:
         return None
 
-    # Drop the store suffix: "In Dairy on the Left Wall, A25 at The Heights H-E-B".
+    # Drop the store suffix: "In Dairy on the Left Wall, A25 at Example H-E-B".
     text = _STORE_SUFFIX.sub("", text).strip()
     if not text:
         return None

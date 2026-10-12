@@ -16,6 +16,7 @@ from decimal import Decimal
 from typing import Any
 
 from dealforge.models import Promotion
+from dealforge.shopper_settings import preferences, shopping_store
 
 __all__ = [
     "DEFAULT_STORE",
@@ -37,13 +38,21 @@ class Store:
     zip_code: str
 
 
-#: The Heights H-E-B, Brayan's default store.
+#: Example H-E-B, Fictional example store; shopper defaults belong in local preferences.
 DEFAULT_STORE = Store(
-    store_number=737,
-    name="The Heights H-E-B",
-    address="2300 N. Shepherd Dr., Houston, TX 77008",
-    zip_code="77008",
+    store_number=0,
+    name="Example H-E-B",
+    address="Example store address",
+    zip_code="",
 )
+
+
+def default_store():
+    """Load private defaults; the public fallback has no geographic identity."""
+    data = preferences("heb")
+    return Store(store_number=int(shopping_store("heb") or 0),
+        name=data.get("name", "Unconfigured H-E-B store"),
+        address=data.get("address", ""), zip_code=data.get("zip_code", ""))
 
 
 @dataclass(frozen=True)

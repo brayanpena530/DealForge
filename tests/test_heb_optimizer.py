@@ -329,7 +329,7 @@ def test_lines_follow_walk_order_and_totals_add_up():
                 (produce, []),
             ]
         ),
-        store_number="737",
+        store_number="101",
     )
     assert [line.query for line in plan.lines] == ["bananas", "eggs"]
     assert plan.total_list == Decimal("3.44")

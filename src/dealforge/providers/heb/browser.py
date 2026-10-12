@@ -38,6 +38,7 @@ from dealforge.providers.heb.parse import (
 )
 from dealforge.providers.heb.schemas import (
     DEFAULT_STORE,
+    default_store,
     CouponOffer,
     ProductDetail,
     ProductResult,
@@ -77,7 +78,7 @@ class HEBBrowserClient:
     Use as a context manager::
 
         with HEBBrowserClient() as heb:
-            heb.set_store("77008")
+            heb.set_store("00000")
             for product in heb.search("eggs"):
                 print(product.name, product.price, product.location)
     """
@@ -85,13 +86,14 @@ class HEBBrowserClient:
     def __init__(
         self,
         *,
-        store_zip: str = DEFAULT_STORE.zip_code,
+        store_zip: str | None = None,
         profile_dir: str | None = None,
         headless: bool = True,
         min_delay: float = 2.0,
         max_delay: float = 5.0,
     ) -> None:
-        self.store_zip = store_zip
+        from dealforge.shopper_settings import shopping_zip
+        self.store_zip = shopping_zip("heb", store_zip)
         self.profile_dir = profile_dir
         self.headless = headless
         self.min_delay = min_delay
@@ -190,16 +192,17 @@ class HEBBrowserClient:
         self._pace()
         page.get_by_role("textbox", name=re_compile("zip")).fill(zip_code)
         self._pace()
-        # First result row; the Heights store is top result for 77008.
+        # Select the first observed result; store defaults are private configuration.
         page.get_by_role("option").first.click()
         self._pace()
         html = page.content()
         self._guard_bot_wall(html, BASE_URL)
         self.store_zip = zip_code
+        configured_store = default_store()
         return Store(
-            store_number=DEFAULT_STORE.store_number,
-            name=DEFAULT_STORE.name,
-            address=DEFAULT_STORE.address,
+            store_number=configured_store.store_number,
+            name=configured_store.name,
+            address=configured_store.address,
             zip_code=zip_code,
         )
 

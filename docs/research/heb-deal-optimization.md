@@ -98,7 +98,7 @@ normalization); a missing brand is not a conflict.
   reject good deals. Mechanism-pinned pairs also assert the exact veto
   reason.
 - *Property checks* (`tests/test_heb_deal_properties.py`): invariants over
-  a checked-in snapshot of the Oct 4, 2026 Heights-store scrape
+  a checked-in snapshot of the Oct 4, 2026 public-store example
   (`tests/fixtures/heb_live_*.json`) -- no emitted match violates any
   gate, brand conflicts never match, every row's head noun is in the
   product, and the pipeline is deterministic.
@@ -139,14 +139,14 @@ evaluated after. No ILP needed.
 - **Private-label detection** is a name heuristic (`h-e-b`, `hill country
   fare`, `central market`, ...). Wire `brand.isOwnBrand` from the product
   payload when available.
-- **Walk order** is still the Phase 2 heuristic for store #737; the plan
+- **Walk order** is still the Phase 2 heuristic for store #101; the plan
   inherits it via `plan_route`.
 - A full ILP solver for multi-unit / cross-item bundle games is future work.
 
 ## Demo
 
 ```bash
-python -m dealforge.heb_plan [items...] [--zip 77008] [--store 737] [--debit] [--live]
+python -m dealforge.heb_plan [items...] [--zip 00000] [--store 101] [--debit] [--live]
 ```
 
 Fixture mode (default) resolves the bundled catalog and deal fixtures --

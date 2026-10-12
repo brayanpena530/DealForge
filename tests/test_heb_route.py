@@ -40,8 +40,8 @@ def unplaced(query: str) -> LocatedItem:
 
 
 def test_walk_order_default_and_unknown_store():
-    assert walk_order_for("737")[0] == "Produce"
-    assert walk_order_for("737")[-1] == "Checkout"
+    assert walk_order_for("101")[0] == "Produce"
+    assert walk_order_for("101")[-1] == "Checkout"
     assert walk_order_for("999999") == walk_order_for(None)
 
 

@@ -32,7 +32,7 @@ __all__ = [
 #: Sensible H-E-B walk: perimeter fresh departments first (produce along the
 #: front/right, seafood/deli/bakery/meat around the back), then dairy on the
 #: back wall, frozen, the center grocery aisles in code order, and out through
-#: the checkstands. Modeled on The Heights #737 floor plan; tune per store.
+#: the checkstands. Generic department heuristic; tune per store.
 #: ``None`` is the walk step for plain numbered grocery aisles -- items whose
 #: location parsed to an aisle number but no department zone
 #: ("Aisle 10", "Aisle 11, A12").
@@ -51,7 +51,7 @@ DEFAULT_WALK_ORDER: list[str | None] = [
 
 #: Store number (str) -> walk order. Add entries as floor plans are surveyed.
 STORE_WALK_ORDERS: dict[str, list[str | None]] = {
-    "737": list(DEFAULT_WALK_ORDER),  # The Heights H-E-B, 2300 N. Shepherd Dr.
+    "101": list(DEFAULT_WALK_ORDER),  # Fictional fixture identity.
     "default": list(DEFAULT_WALK_ORDER),
 }
 
@@ -100,7 +100,7 @@ def _sort_key(
 
 
 def plan_route(
-    items: list[LocatedItem], store_number: str | int | None = "737"
+    items: list[LocatedItem], store_number: str | int | None = "101"
 ) -> list[LocatedItem]:
     """Order items into a walking route for a store.
 

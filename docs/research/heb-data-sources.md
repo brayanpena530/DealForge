@@ -119,7 +119,7 @@ Still well short of CVS's 293, and H-E-B keeps the real depth (full weekly ad, a
 digital coupons, Combo Loco, Meal Deal) on heb.com — but the promo *density* is far
 higher than CVS's, so the circular carries more usable signal than the item count suggests.
 
-## Verified pull: 77008 (Houston Heights), week of 2026-09-16
+## Historical public-ad sample (location metadata redacted), week of 2026-09-16
 
 Three H-E-B-owned banners serve this zip:
 

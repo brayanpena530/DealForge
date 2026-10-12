@@ -372,7 +372,7 @@ def _apply_basket(
 def optimize(
     assignment: DealAssignment,
     *,
-    store_number: str | int | None = "737",
+    store_number: str | int | None = "101",
     debit_card: bool = False,
 ) -> ShoppingPlan:
     """Turn a deal assignment into a priced, route-ordered shopping plan.
