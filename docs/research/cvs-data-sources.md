@@ -1,5 +1,15 @@
 # CVS Data Source Research — verified 2026-09-17
 
+**October 10, 2026 implementation update:** This document's reconnaissance below
+is historical. Read-only account sync and exact catalog lookup are implemented.
+Public ZIP-scoped listing/item search was reverified live and is available through
+`search_cvs_weekly_ad`, without the flyerkit token. Its ecommerce prices are
+ignored. Ad group identifiers do not establish exact SKUs or store applicability;
+selected-store web prices do not establish shelf prices. A price evidence
+resolver and conditional basket evaluator now exist; automatic shelf collection,
+complete checkout rule extraction and POS validation remain unresolved.
+See [current price and calculation contracts](../cvs-basket-calculation.md).
+
 Three tiers, by how hard they are to get.
 
 ## Tier 1 — Weekly ad: solved, public JSON, no auth ✅
@@ -124,7 +134,7 @@ user approval before any clip/activate action, and never share the session.
 
 ---
 
-# Verified pull: 77008 (Houston Heights), week of 2026-09-20
+# Historical public-ad sample (location metadata redacted), week of 2026-09-20
 
 Re-ran Tier 1 against the user's own zip. Flyer **8139677**, **293 items**,
 frozen as `tests/fixtures/cvs_flyer_8139677.json`.

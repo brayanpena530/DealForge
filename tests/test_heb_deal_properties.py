@@ -1,7 +1,7 @@
 """Property-style checks over a snapshot of real heb.com data.
 
 The snapshot (``tests/fixtures/heb_live_*.json``) is the Oct 4, 2026 scrape
-of the Heights store (#737) used for the first live end-to-end run: 10
+of the example store (#101) used for the first live end-to-end run: 10
 queries, 44 product candidates, 96 coupons, 43 weekly-ad rows. These tests
 assert invariants that must hold for EVERY pair, so a future loosening of
 the matcher -- or a new deal grammar that slips past the gates -- fails

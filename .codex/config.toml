@@ -1,0 +1,25 @@
+# Inspect the user's existing Chrome session; sign-in stays in Chrome.
+# Only inventory tools are exposed. Agents must target CVS tabs exclusively.
+[mcp_servers.cvs-chrome]
+enabled = false
+command = "cmd.exe"
+args = ["/c", "npx.cmd", "-y", "chrome-devtools-mcp@1.10.1", "--autoConnect", "--no-usage-statistics", "--no-performance-crux", "--no-source-maps", "--no-javascript-evaluation", "--categoryInput=false", "--categoryEmulation=false", "--categoryPerformance=false", "--categoryMemory=false"]
+startup_timeout_sec = 30
+tool_timeout_sec = 60
+enabled_tools = ["list_pages", "take_snapshot", "list_network_requests"]
+
+# Reusable CVS-only wrapper. Playwright controls a dedicated ordinary-Chrome
+# profile; manual sign-in uses dealforge-cvs login. No Chrome MCP bridge needed.
+[mcp_servers.cvs-account]
+command = "uv"
+args = ["run", "--no-project", "--with-editable", ".[cvs]", "dealforge-cvs-mcp"]
+env = { DEALFORGE_CVS_BROWSER = "playwright", DEALFORGE_CVS_LAUNCH = "native_cdp" }
+startup_timeout_sec = 45
+tool_timeout_sec = 200
+enabled_tools = ["sync_cvs_account", "plan_cvs_trip", "assess_cvs_offer_eligibility", "find_cvs_stores", "search_cvs_products", "get_cvs_product", "match_cvs_products", "search_cvs_weekly_ad", "resolve_cvs_prices", "evaluate_cvs_basket", "prepare_cvs_purchase", "optimize_cvs_purchase", "reconcile_cvs_receipt"]
+
+[mcp_servers.cvs-account.tools.sync_cvs_account]
+output_token_limit = 30000
+
+[mcp_servers.cvs-account.tools.plan_cvs_trip]
+output_token_limit = 30000

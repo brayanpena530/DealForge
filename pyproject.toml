@@ -11,6 +11,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+cvs = ["mcp>=1.12,<2", "tzdata>=2024.1", "playwright>=1.49", "PyYAML>=6"]
+
+[project.scripts]
+dealforge-cvs = "dealforge.cvs:main"
+dealforge-cvs-mcp = "dealforge.cvs_mcp:main"
 
 [build-system]
 requires = ["setuptools>=68"]

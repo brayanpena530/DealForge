@@ -34,7 +34,7 @@ def _print_results(query: str, results, *, live: bool) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Search H-E-B, show price + aisle.")
     parser.add_argument("query", nargs="?", default="eggs", help="product to search")
-    parser.add_argument("--zip", default="77008", help="store ZIP (default: 77008)")
+    parser.add_argument("--zip", help="store ZIP; defaults to private local preferences")
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument(
         "--live",
@@ -42,6 +42,11 @@ def main(argv: list[str] | None = None) -> int:
         help="hit heb.com through a real Chromium session (read-only)",
     )
     args = parser.parse_args(argv)
+    from dealforge.shopper_settings import shopping_zip, shopping_store
+    if hasattr(args, "store"):
+        args.store = shopping_store("heb", args.store) or "default"
+    if args.live:
+        args.zip = shopping_zip("heb", args.zip)
 
     if args.live:
         from dealforge.providers.heb.browser import HEBBrowserClient

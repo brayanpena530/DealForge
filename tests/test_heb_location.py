@@ -31,7 +31,7 @@ def test_zone_position_and_aisle_code():
 
 
 def test_store_suffix_is_stripped():
-    p = loc("In Dairy on the Left Wall, A25 at The Heights H-E-B")
+    p = loc("In Dairy on the Left Wall, A25 at Example H-E-B")
     assert p.zone == "Dairy"
     assert p.aisle_code == "A25"
     assert "H-E-B" not in p.zone
@@ -120,11 +120,11 @@ def test_none_empty_whitespace():
 def test_nonsense_returns_none():
     assert parse_location("Somewhere over there") is None
     assert parse_location("???") is None
-    assert parse_location("at The Heights H-E-B") is None
+    assert parse_location("at Example H-E-B") is None
 
 
 def test_raw_is_preserved_verbatim():
-    raw = "In Dairy on the Left Wall, A25 at The Heights H-E-B"
+    raw = "In Dairy on the Left Wall, A25 at Example H-E-B"
     assert loc(raw).raw == raw
 
 

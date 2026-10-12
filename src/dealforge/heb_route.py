@@ -102,14 +102,19 @@ def main(argv: list[str] | None = None) -> int:
         description="Resolve a shopping list into an H-E-B store route."
     )
     parser.add_argument("items", nargs="*", help="shopping list queries")
-    parser.add_argument("--zip", default="77008", help="store ZIP (default: 77008)")
-    parser.add_argument("--store", default="737", help="store number (default: 737)")
+    parser.add_argument("--zip", help="store ZIP; defaults to private local preferences")
+    parser.add_argument("--store", help="store number; defaults to private local preferences")
     parser.add_argument(
         "--live",
         action="store_true",
         help="hit heb.com through a real Chromium session (read-only)",
     )
     args = parser.parse_args(argv)
+    from dealforge.shopper_settings import shopping_zip, shopping_store
+    if hasattr(args, "store"):
+        args.store = shopping_store("heb", args.store) or "default"
+    if args.live:
+        args.zip = shopping_zip("heb", args.zip)
 
     from dealforge.providers.heb.shopping import resolve_list
 

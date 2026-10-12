@@ -1,7 +1,7 @@
 """Tests for the CVS sale_story parser.
 
 Every string in this file is real ad copy, captured from the CVS weekly ad for
-77008 (Houston) for the week of 2026-09-20. The full 293-item flyer is in
+00000 (Houston) for the week of 2026-09-20. The full 293-item flyer is in
 `fixtures/cvs_flyer_8139677.json`.
 
 The defining difference from H-E-B: one CVS string usually carries several

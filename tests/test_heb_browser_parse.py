@@ -40,7 +40,7 @@ def test_search_results_parse_cards():
     assert first.price == Decimal("4.79")
     assert first.price_unit == "each"
     assert first.unit_price_text == "($0.27/ct)"
-    assert first.location == "In Dairy on the Left Wall, A25 at The Heights H-E-B"
+    assert first.location == "In Dairy on the Left Wall, A25 at Example H-E-B"
     assert first.snap_eligible is True
     assert first.url == "https://www.heb.com/product-detail/h-e-b-grade-aa-cage-free-extra-large-brown-eggs-18-ct/8271501"
 
@@ -70,7 +70,7 @@ def test_product_page_fields():
     detail = parse_product_page(read("heb_product_8271501.html"), url)
     assert detail.item_id == "8271501"
     assert detail.price == Decimal("4.79")
-    assert detail.location == "In Dairy on the Left Wall, A25 at The Heights H-E-B"
+    assert detail.location == "In Dairy on the Left Wall, A25 at Example H-E-B"
     assert detail.deal_badges == ("Coupon",)
     assert detail.more_ways_to_save == (
         "Earn 5% cash back on this item with the H-E-B Visa Signature Credit Card",
